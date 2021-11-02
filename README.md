@@ -1,5 +1,7 @@
 # AllTameable
 
+![icon](https://raw.githubusercontent.com/meldurson/AllTameable/main/icon.png)
+
 This update to the AllTameable from buzz so if they want it removed I will oblige. I'm fairly new to coding in unity so there may be some issues.
 
 The original mod can be found at [AllTameable](https://www.nexusmods.com/valheim/mods/478?tab=description)
