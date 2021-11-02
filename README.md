@@ -32,6 +32,8 @@ __Current features that do not work:__
 
 * Download the main file with a mod manager or manually place the DLL file in the plugins folder
 * Download one of the TameList in the optional files section and place in the config folder
+  * [TameList Vanilla](https://github.com/meldurson/AllTameable/blob/main/TameList%20Vanilla.zip)
+  * [TameList DoD](https://github.com/meldurson/AllTameable/blob/main/TameList%20DoD.zip)
 * Open the TameList file and modify to your hearts content, including adding creatures that are added by mods as long as it follows the correct format
 
 __Note:__ The new TameList is optional, if you already have the original config file you do not need to download any extra files. The TameList file with override if it is found when loaded, otherwise the "meldurson.valheim.AllTameable.cfg" is used.
