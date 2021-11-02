@@ -1,6 +1,6 @@
 # AllTameable
 
-![icon](https://raw.githubusercontent.com/meldurson/AllTameable/main/icon.png)
+![Banner](https://raw.githubusercontent.com/meldurson/AllTameable/main/Banner.png)
 
 This update to the AllTameable from buzz so if they want it removed I will oblige. I'm fairly new to coding in unity so there may be some issues.
 
@@ -44,22 +44,21 @@ __Note:__ The new TameList is optional, if you already have the original config 
 ## Configuration
 
 The descriptions of the options in the config are as follows:
-
-__name:__ This is where you put the ID of the creature you are adding
-__commandable:__ This sets the ability to order them to follow you or not
-__tamingTime:__ This is the time it will take to tame the creature (in seconds)
-__fedDuration:__ This is how long a creature will be full for after it eats (in seconds)
-__consumeRange:__ This is the max range the creature can be at to eat food
-__consumeSearchInterval:__ This is how often the creature checks to see if food is in range to decides whether it needs it (in seconds)
-__consumeHeal:__ This is how much health each food provides
-__consumeSearchRange: This is the range the creature can detect food from
-__consumeItems:__ This is where you put the ID's of the items you want the creature to eat, put a : symbol in between each food (doesn't need to be a food item)
-__changeFaction:__ This is whether the creature will change faction when tamed (If set to on it will attack/get attacked by anything that attacks you)
-__procretion:__ This is whether the creature can breed to produce offspring
-__maxCreatures:__ This is the max amount of creatures within 30m you can have of the creature ID typed in, if it exceeds this they will stop breeding
-__pregnancyChance:__ This is the chance the creature has of becoming pregnant, Lower number = higher chance (scales from 0.00 to 1.00)
-__pregnancyDuration:__ This is how long the creature is pregnant for (In seconds)
-__growTime:__ This is how long it takes for offspring to grow into an adult (In seconds)
+* __name:__ This is where you put the ID of the creature you are adding
+* __commandable:__ This sets the ability to order them to follow you or not
+* __tamingTime:__ This is the time it will take to tame the creature (in seconds)
+* __fedDuration:__ This is how long a creature will be full for after it eats (in seconds)
+* __consumeRange:__ This is the max range the creature can be at to eat food
+* __consumeSearchInterval:__ This is how often the creature checks to see if food is in range to decides whether it needs it (in seconds)
+* __consumeHeal:__ This is how much health each food provides
+* __consumeSearchRange:__ This is the range the creature can detect food from
+* __consumeItems:__ This is where you put the ID's of the items you want the creature to eat, put a : symbol in between each food (doesn't need to be a food item)
+* __changeFaction:__ This is whether the creature will change faction when tamed (If set to on it will attack/get attacked by anything that attacks you)
+* __procretion:__ This is whether the creature can breed to produce offspring
+* __maxCreatures:__ This is the max amount of creatures within 30m you can have of the creature ID typed in, if it exceeds this they will stop breeding
+* __pregnancyChance:__ This is the chance the creature has of becoming pregnant, Lower number = higher chance (scales from 0.00 to 1.00)
+* __pregnancyDuration:__ This is how long the creature is pregnant for (In seconds)
+* __growTime:__ This is how long it takes for offspring to grow into an adult (In seconds)
 
 __Example:__
 Deer,true,900,150,2,10,30,20,Raspberry:Blueberries:Carrot:Turnip:Mushroom:Cloudberry:OnionSoup:Onion,true,true,10,0.66,150,300
