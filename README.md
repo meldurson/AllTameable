@@ -6,6 +6,8 @@ This update to the AllTameable from buzz so if they want it removed I will oblig
 
 The original mod can be found at [AllTameable](https://www.nexusmods.com/valheim/mods/478?tab=description)
 
+A detailed changelog can also be found on the [Nexus Page](https://www.nexusmods.com/valheim/mods/1571?tab=description)
+
 I made this so I could use it on a dedicated server and ended up adding features that I wanted to have.
 
 __By default, the config file does not add taming to any additional creatures. Each creature has to be manually added to the config or use one of the provided config files__
@@ -41,7 +43,7 @@ __Current features that do not work:__
   * [TameList Vanilla](https://github.com/meldurson/AllTameable/blob/main/TameList%20Vanilla.zip)
   * [TameList DoD](https://github.com/meldurson/AllTameable/blob/main/TameList%20DoD.zip)
 * Open the TameList file and modify to your hearts content, including adding creatures that are added by mods as long as it follows the correct format
-* If wanting to modify tame of RRRNPC then I recommend using the [RRRCore Taming Patch](https://github.com/meldurson/AllTameable/raw/main/RRRCoreTamingPatch_0.0.1.zip)
+* If wanting to modify tame of RRRNPC then I recommend using my [RRRCore Taming Patch](https://github.com/meldurson/AllTameable/raw/main/RRRCoreTamingPatch_0.0.1.zip)
 
 __Note:__ The new TameList is optional, if you already have the original config file you do not need to download any extra files. The TameList file with override if it is found when loaded, otherwise the "meldurson.valheim.AllTameable.cfg" is used.
 
