@@ -41,7 +41,7 @@ __Current features that do not work:__
   * [TameList Vanilla](https://github.com/meldurson/AllTameable/blob/main/TameList%20Vanilla.zip)
   * [TameList DoD](https://github.com/meldurson/AllTameable/blob/main/TameList%20DoD.zip)
 * Open the TameList file and modify to your hearts content, including adding creatures that are added by mods as long as it follows the correct format
-* If wanting to modify tame of RRRNPC then I recommend using the RRRCore Taming Patch
+* If wanting to modify tame of RRRNPC then I recommend using the [RRRCore Taming Patch](https://github.com/meldurson/AllTameable/raw/main/RRRCoreTamingPatch_0.0.1.zip)
 
 __Note:__ The new TameList is optional, if you already have the original config file you do not need to download any extra files. The TameList file with override if it is found when loaded, otherwise the "meldurson.valheim.AllTameable.cfg" is used.
 
