@@ -30,11 +30,16 @@ __The current state of the mod includes the following features:__
 * Can breed Humans added by RRRNPC
 * Can breed different creatures together (mainly useful for humans with male/female variants)
 * Can tame passive creatures such as Deer (or others added my mods such as Horems Wildlife)
+* Can breed Seekers and have Seeker Broods as Offspring
 
 
 __Current features that do not work:__
 * Ability to tame Bosses (they have special AI that is not conducive with taming)
 * Ability to tame Birds (also have a special AI)
+
+__Known Incompatibilities:__
+* Issues with Valheim Plus Invincible Tames (throws an error, not game breaking)
+* Tames entering WardIsLove wards can throw an error (Also not game breaking)
 
 ## Installation Instructions:
 
@@ -82,5 +87,4 @@ Wolf,-1
 This will not allow for wolves to be tamed
 
 __Note:__ This should be used on servers to set creatures you don't want tamed
-
 
