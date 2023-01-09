@@ -31,6 +31,7 @@ __The current state of the mod includes the following features:__
 * Can breed different creatures together (mainly useful for humans with male/female variants)
 * Can tame passive creatures such as Deer (or others added my mods such as Horems Wildlife)
 * Can breed Seekers and have Seeker Broods as Offspring
+* Can set Trades for instant taming
 
 
 __Current features that do not work:__
@@ -79,6 +80,12 @@ __To make two different prefabs able to breed with each other separate their ID 
 RRRN_HumanMale:RRRN_HumanFemale,true,900,150,2,10,30,20,CookedMeat,true,true,10,0.66,150,500
 
 This will allow for both humans to breed with each other
+
+__To make a creature tameable by trading set commandable to "trade" and then format trades as Tradeitem=TradeAmount:__
+Dverger,trade,BlackCore=5:Coins=999
+
+This will allow to tame a Dverger with either 5 Black Cores or 999 Coins (Note: if wanting to tame by feeding and trade then place trade line after feed line)
+
 
 __To make a creature not tameable you set the line to the creature name plus a -1 such as:__
 
