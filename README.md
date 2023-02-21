@@ -95,3 +95,19 @@ This will not allow for wolves to be tamed
 
 __Note:__ This should be used on servers to set creatures you don't want tamed
 
+## Troubleshooting
+__If a creature is not tameable when you think they should be then there are a steps you can take:__
+1. When you start the game before the title screen there will be a block of messages saying which creatures have been set to tameable. The start of the message will be __[Info   :AllTameable-Overhaul]__ the name of the creature should be here with successfully added beside it. If it is not you may need to check your TameList
+2. If you enable Debug Output in the __meldurson.valheim.AllTameable.cfg__ then when you load into the world it should show what creatures have successfully changed to be tameable and if they are commandable. This will be a block of  
+__[Warning:AllTameable-Overhaul]__ Creature is commandable
+__[Warning:AllTameable-Overhaul]__ Successfully added Tame and Procreation to Creature
+3. If it says that the creature is tameable or commandable but does not show when in game, if you use the Taming Tool when Debug is enabled and hover over the creature it will show the Prefab name and if it is commandable. If the Prefab name is not in your Tamelist then you will have to add it.
+
+
+__If a creature is not procreating then there are a couple steps you can take:__
+1. Enable Debug in the __meldurson.valheim.AllTameable.cfg__
+2. When hovering over the creature when they are fed it will bring up a few stats. 
+   - The one you may need to look at is the Less than max instance: 
+4. If it says Needs Mate then it will let you know the creatures that are around
+5. If it says Error then it will post in Bepinex what the error is (Note: For 30s-1m after loading into a world there may be some errors with other mods that affect spawning that should go away)
+
