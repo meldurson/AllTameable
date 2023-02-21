@@ -47,6 +47,7 @@ __Known Incompatibilities:__
 * Download the main file with a mod manager or manually place the DLL file in the plugins folder
 * Download one of the TameList in the optional files section and place in the config folder
   * [TameList Vanilla](https://github.com/meldurson/AllTameable/blob/main/TameList%20Vanilla.zip)
+  * [Tamelist EpicValheim](https://github.com/meldurson/AllTameable/blob/main/Tamelist%20EpicValheim.zip)
   * [TameList DoD](https://github.com/meldurson/AllTameable/blob/main/TameList%20DoD.zip)
 * Open the TameList file and modify to your hearts content, including adding creatures that are added by mods as long as it follows the correct format
 * If wanting to modify tame of RRRNPC then I recommend using my [RRRCore Taming Patch](https://github.com/meldurson/AllTameable/raw/main/RRRCoreTamingPatch_0.0.1.zip)
