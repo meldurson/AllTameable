@@ -29,7 +29,7 @@ __The current state of the mod includes the following features:__
 * Can set a healing amount when a tame consumes an item (this feature was removed in Hearth and Home)
 * Can breed Humans added by RRRNPC
 * Can breed different creatures together (mainly useful for humans with male/female variants)
-* Can tame passive creatures such as Deer (or others added my mods such as Horems Wildlife)
+* Can tame passive creatures such as Deer (or others added by mods such as Horems Wildlife)
 * Can breed Seekers and have Seeker Broods as Offspring
 * Can set Trades for instant taming
 
@@ -95,6 +95,30 @@ Wolf,-1
 This will not allow for wolves to be tamed
 
 __Note:__ This should be used on servers to set creatures you don't want tamed
+
+Any line starting with a # in AllTameable_Tamelist will be skipped from calculating into the tamelist  
+You can multiple AllTameable_Tamelist\*.cfg files where \* can be anything such as AllTameable_Tamelist_RRR.cfg  
+
+Starting a line with a '\*' will then set all atributes in that as the default going forward allowing to only specify attributes you change,  
+You can specify a new default at any time by starting a new line with '\*' as shown below the Boar will have the same attributes as Default and Deer with have the same attributes as Tier_1 the Greyling and Neck will have the same attributes as Tier_1 with dfferent consumeItems  
+You can specify any attribute by "name=value"  
+__example:__ Surtling,consumeItems=Coal:ElderBark  
+This will use all the default values except for consumeItems
+
+## Custom Options:
+
+__canMateWithSelf:__ default=true, options:true,false  
+Makes it so can only mate with other creatures that have been specified and not creatures with the same prefab  
+
+__specificOffspring:__ default=none, specify in the form __Mate(offspring1:chance1/offspring2:chance2/...)__  
+The following will make it so can only breed Goblins when breeding GoblinShaman and GoblinBrute with an 80% chance and when breeding two GoblinShaman there is a 70% chance to get a GoblinBrute and 30% to get a GoblinShaman
+
+Goblin,-1  
+\*GoblinElites,true,2300,250,2,10,90,20,SerpentMeatCooked:CookedLoxMeat:CarrotSoup:BloodPudding:FishWraps:LoxPie:TurnipStew:SerpentStew:BlackSoup:WolfMeatSkewer:WolfJerky:CookedWolfMeat:CookedHareMeat,true,true,6,0.66,200,600  
+GoblinShaman,specificOffspring=GoblinBrute(Goblin:80/GoblinBrute:10),specificOffspring=GoblinShaman(GoblinBrute:70)  
+GoblinBrute  
+GoblinShaman:GoblinBrute,-1  
+
 
 ## Troubleshooting
 __If a creature is not tameable when you think they should be then there are a steps you can take:__
