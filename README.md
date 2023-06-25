@@ -31,8 +31,9 @@ __The current state of the mod includes the following features:__
 * Can breed different creatures together (mainly useful for humans with male/female variants)
 * Can tame passive creatures such as Deer (or others added by mods such as Horems Wildlife)
 * Can have specific offspring depending on mates
-* Can set Trades for instant taming
-
+* Can set Trades for instant taming  
+* __Can turn on Simple Mode to only change taming and does not include custom procreation__
+  * If do not need complex procreation and are having issues, turn this on in config
 
 __Current features that do not work:__
 * Ability to tame Bosses (they have special AI that is not conducive with taming)
