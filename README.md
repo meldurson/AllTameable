@@ -30,7 +30,7 @@ __The current state of the mod includes the following features:__
 * Can breed Humans added by RRRNPC
 * Can breed different creatures together (mainly useful for humans with male/female variants)
 * Can tame passive creatures such as Deer (or others added by mods such as Horems Wildlife)
-* Can breed Seekers and have Seeker Broods as Offspring
+* Can have specific offspring depending on mates
 * Can set Trades for instant taming
 
 
@@ -46,13 +46,14 @@ __Known Incompatibilities:__
 
 * Download the main file with a mod manager or manually place the DLL file in the plugins folder
 * Download one of the TameList in the optional files section and place in the config folder
-  * [TameList Vanilla](https://github.com/meldurson/AllTameable/blob/main/TameList%20Vanilla.zip)
-  * [Tamelist EpicValheim](https://github.com/meldurson/AllTameable/blob/main/Tamelist%20EpicValheim.zip)
-  * [TameList DoD](https://github.com/meldurson/AllTameable/blob/main/TameList%20DoD.zip)
+  * [TameList Vanilla](https://github.com/meldurson/AllTameable/blob/main/TameList%20Vanilla.zip) currated list with increasing difficulty to tame
+  * [TameList Simple](https://github.com/meldurson/AllTameable/blob/main/AllTameable_TameList_Simple.zip) sticks to vanilla taming except for what you can feed
+  * [Tamelist EpicValheim](https://github.com/meldurson/AllTameable/blob/main/Tamelist%20EpicValheim.zip) old
+  * [TameList DoD](https://github.com/meldurson/AllTameable/blob/main/TameList%20DoD.zip) old
 * Open the TameList file and modify to your hearts content, including adding creatures that are added by mods as long as it follows the correct format
-* If wanting to modify tame of RRRNPC then I recommend using my [RRRCore Taming Patch](https://github.com/meldurson/AllTameable/raw/main/RRRCoreTamingPatch_0.0.1.zip)
+* <del>If wanting to modify tame of RRRNPC then I recommend using my [RRRCore Taming Patch](https://github.com/meldurson/AllTameable/raw/main/RRRCoreTamingPatch_0.0.1.zip)</del> now included in main mod
 
-__Note:__ The new TameList is optional, if you already have the original config file you do not need to download any extra files. The TameList file with override if it is found when loaded, otherwise the "meldurson.valheim.AllTameable.cfg" is used.
+__Note:__ The new TameList <del>is optional</del> _is now required_, if you already have the original config file you do not need to download any extra files. The TameList file with override if it is found when loaded, otherwise the "meldurson.valheim.AllTameable.cfg" is used to create a new Tamelist.
 
 
 ## Configuration
@@ -117,7 +118,12 @@ Goblin,-1
 \*GoblinElites,true,2300,250,2,10,90,20,SerpentMeatCooked:CookedLoxMeat:CarrotSoup:BloodPudding:FishWraps:LoxPie:TurnipStew:SerpentStew:BlackSoup:WolfMeatSkewer:WolfJerky:CookedWolfMeat:CookedHareMeat,true,true,6,0.66,200,600  
 GoblinShaman,specificOffspring=GoblinBrute(Goblin:80/GoblinBrute:10),specificOffspring=GoblinShaman(GoblinBrute:70)  
 GoblinBrute  
-GoblinShaman:GoblinBrute,-1  
+GoblinShaman:GoblinBrute  
+
+__size:__ default=1, options: 0.5-4  
+multiplier to determine how far away it checks for other creatures, most creatures you will not have to change.
+Lox should be at least 2, Vanilla Bosses should be 3, 4 is only if it is massive!
+You can use decimals and specify a smaller range if you choose such as 0.5 for a small creature such as a hen
 
 
 ## Troubleshooting
