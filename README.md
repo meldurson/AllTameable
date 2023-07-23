@@ -8,7 +8,9 @@ The original mod can be found at [AllTameable](https://www.nexusmods.com/valheim
 
 A detailed changelog can also be found on the [Nexus Page](https://www.nexusmods.com/valheim/mods/1571?tab=description)
 
-I made this so I could use it on a dedicated server and ended up adding features that I wanted to have.
+I made this so I could use it on a dedicated server and ended up adding features that I wanted to have. I can only work on this in my spare time, if you enjoy the mod and want and have the ability to send a few bucks you can on [Ko-fi](https://ko-fi.com/meldurson)
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/B0B3NARM0)
 
 __By default, the config file does not add taming to any additional creatures. Each creature has to be manually added to the config or use one of the provided config files__
 
@@ -34,9 +36,13 @@ __The current state of the mod includes the following features:__
 * Can set Trades for instant taming  
 * __Can turn on Simple Mode to only change taming and does not include custom procreation__
   * If do not need complex procreation and are having issues, turn this on in config
+* Special taming food that decreases taming time
+  * Made using the cauldron and uses completed tasty mead
+* Increased reach for interaction with creatures when using the taming tool
 
 __Current features that do not work:__
 * Ability to tame Bosses (they have special AI that is not conducive with taming)
+  * Can use trade to tame and they will become tame although will never calm down
 * Ability to tame Birds (also have a special AI)
 
 __Known Incompatibilities:__
@@ -142,4 +148,6 @@ __If a creature is not procreating then there are a couple steps you can take:__
    - The one you may need to look at is the Less than max instance: 
 4. If it says Needs Mate then it will let you know the creatures that are around
 5. If it says Error then it will post in Bepinex what the error is (Note: For 30s-1m after loading into a world there may be some errors with other mods that affect spawning that should go away)
+
+   If none of that works then reach out to me on the [Valheim Modding Discord](https://discord.com/invite/GUEBuCuAMz) 
 
