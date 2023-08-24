@@ -14,7 +14,15 @@ I made this so I could use it on a dedicated server and ended up adding features
 
 __By default, the config file does not add taming to any additional creatures. Each creature has to be manually added to the config or use one of the provided config files__
 
-
+## New in 1.3
+* Works with Hildir's Update
+* Changed where taming tools are made, now required to use a crafting table
+* Added an advanced taming tool that can be used to interact with creatures from further away and command multiple creatures at a time
+* Can cycle between different mass commands using the cycle key when looking at a tamed creature
+* Added three tiers of special taming food that reduces taming time, made in the cauldron
+* Mutation chances are now split between levels, infusions, and effects
+* Can now log out and into a different world at it will reload your configs, no more need to quit and reopen
+##
 __The current state of the mod includes the following features:__
 
 * Ability to tame any creature specified in the config including added by RRRM (Others may work I just haven't tested)
@@ -75,9 +83,9 @@ The descriptions of the options in the config are as follows:
 * __consumeHeal:__ This is how much health each food provides
 * __consumeSearchRange:__ This is the range the creature can detect food from
 * __consumeItems:__ This is where you put the ID's of the items you want the creature to eat, put a : symbol in between each food (doesn't need to be a food item)
-* __changeFaction:__ This is whether the creature will change faction when tamed (If set to on it will attack/get attacked by anything that attacks you)
-* __procretion:__ This is whether the creature can breed to produce offspring
-* __maxCreatures:__ This is the max amount of creatures within 30m you can have of the creature ID typed in, if it exceeds this they will stop breeding
+* __changeFaction:__ This is whether the creature will change faction when tamed (If set to true it will attack/get attacked by anything that attacks you)
+* __procretion:__ This is whether the creature can breed to produce offspring (can set to _overwrite_ if there is already an offsping programmed in that you want to replace)
+* __maxCreatures:__ This is the max amount of creatures within range you can have of the creature ID typed in, if it exceeds this they will stop breeding
 * __pregnancyChance:__ This is the chance the creature has of becoming pregnant, Lower number = higher chance (scales from 0.00 to 1.00)
 * __pregnancyDuration:__ This is how long the creature is pregnant for (In seconds)
 * __growTime:__ This is how long it takes for offspring to grow into an adult (In seconds)
@@ -132,6 +140,9 @@ multiplier to determine how far away it checks for other creatures, most creatur
 Lox should be at least 2, Vanilla Bosses should be 3, 4 is only if it is massive!
 You can use decimals and specify a smaller range if you choose such as 0.5 for a small creature such as a hen
 
+__group:__ default=none  
+Groups are used to determine if mobs will be hostile towards eachother, if two mobs have the same group then if one is tamed and the other wild they will still not attack eachother  
+group can equal whatever name you want for example, if you add name=AllGoblin to all of the goblins they will not attack eachother if one is tamed and the other is wild
 
 ## Troubleshooting
 __If a creature is not tameable when you think they should be then there are a steps you can take:__
