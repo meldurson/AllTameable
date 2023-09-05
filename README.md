@@ -68,7 +68,7 @@ __Known Incompatibilities:__
 * Download the main file with a mod manager or manually place the DLL file in the plugins folder
 * Download one of the TameList in the optional files section and place in the config folder
   * [TameList Vanilla](https://github.com/meldurson/AllTameable/blob/main/TameList%20Vanilla.zip) currated list with increasing difficulty to tame
-  * [TameList Simple](https://github.com/meldurson/AllTameable/blob/main/AllTameable_TameList_Simple.zip) sticks to vanilla taming except for what you can feed
+  * [TameList Simple](https://github.com/meldurson/AllTameable/blob/main/TameList%20Simple.zip) sticks to vanilla taming except for what you can feed
   * [Tamelist EpicValheim](https://github.com/meldurson/AllTameable/blob/main/Tamelist%20EpicValheim.zip) old
   * [TameList DoD](https://github.com/meldurson/AllTameable/blob/main/TameList%20DoD.zip) old
 * Open the TameList file and modify to your hearts content, including adding creatures that are added by mods as long as it follows the correct format
