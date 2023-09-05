@@ -90,7 +90,7 @@ The descriptions of the options in the config are as follows:
 * __consumeSearchRange:__ This is the range the creature can detect food from
 * __consumeItems:__ This is where you put the ID's of the items you want the creature to eat, put a : symbol in between each food (doesn't need to be a food item)
 * __changeFaction:__ This is whether the creature will change faction when tamed (If set to true it will attack/get attacked by anything that attacks you)
-* __procretion:__ This is whether the creature can breed to produce offspring (can set to _overwrite_ if there is already an offsping programmed in that you want to replace)
+* __procretion:__ This is whether the creature can breed to produce offspring (can set to _overwrite_ if there is already an offspring programmed in that you want to replace)
 * __maxCreatures:__ This is the max amount of creatures within range you can have of the creature ID typed in, if it exceeds this they will stop breeding
 * __pregnancyChance:__ This is the chance the creature has of becoming pregnant, Lower number = higher chance (scales from 0.00 to 1.00)
 * __pregnancyDuration:__ This is how long the creature is pregnant for (In seconds)
