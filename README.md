@@ -16,6 +16,10 @@ __By default, the config file does not add taming to any additional creatures. E
 
 ## New in 1.3
 * Works with Hildir's Update
+* Complete overhaul of eggs and hatching
+  * Eggs now have levels inherited from parents and determines level once hatched
+  * Dragon eggs now hatch the same as chicken eggs
+  * All genetic functionality that was available with normal offspring now can apply to eggs
 * Changed where taming tools are made, now required to use a crafting table
 * Added an advanced taming tool that can be used to interact with creatures from further away and command multiple creatures at a time
 * Can cycle between different mass commands using the cycle key when looking at a tamed creature
@@ -26,7 +30,7 @@ __By default, the config file does not add taming to any additional creatures. E
 __The current state of the mod includes the following features:__
 
 * Ability to tame any creature specified in the config including added by RRRM (Others may work I just haven't tested)
-* Works in singleplayer, multiplayer, and dedicated server as long as all parties have the mod installed
+* Works in singleplayer, multiplayer, and dedicated server as long as all parties and the server have the mod installed
 * Added a craftable item that when hovering over a creature and wielding the item it will show taming time and acceptable consumables
 * Ability to have hatchable dragon eggs
 * New Config solution to more easily manage creature tames
@@ -47,6 +51,8 @@ __The current state of the mod includes the following features:__
 * Special taming food that decreases taming time
   * Made using the cauldron and uses completed tasty mead
 * Increased reach for interaction with creatures when using the taming tool
+* Can have creatures lay eggs
+* Command multiple creatures at once with taming wand
 
 __Current features that do not work:__
 * Ability to tame Bosses (they have special AI that is not conducive with taming)
@@ -142,7 +148,15 @@ You can use decimals and specify a smaller range if you choose such as 0.5 for a
 
 __group:__ default=none  
 Groups are used to determine if mobs will be hostile towards eachother, if two mobs have the same group then if one is tamed and the other wild they will still not attack eachother  
-group can equal whatever name you want for example, if you add name=AllGoblin to all of the goblins they will not attack eachother if one is tamed and the other is wild
+group can equal whatever name you want for example, if you add group=AllGoblin to all of the goblins they will not attack eachother if one is tamed and the other is wild
+
+__egg:__ drake/chicken(hatchtime:color:size),  default(1800:default:1)  
+Have the creature lay an egg that will hatch into a mini version  
+choose which egg to copy, how long it will take to hatch when near a fire, if you want to change the color, if you want to change the size  
+by default you do not need to specify anything other than the egg type such as egg=drake or egg=chicken   
+the color is specified as a hex code such as #FFFFFF for white or #FF0000 for red  
+an example would be the following which would have necks lay a smaller version of the dragon egg with a color of green and a hatch time of 20 minutes  
+Neck,egg=drake(1200:#00FF00:0.3)
 
 ## Troubleshooting
 __If a creature is not tameable when you think they should be then there are a steps you can take:__
