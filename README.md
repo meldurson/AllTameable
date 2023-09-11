@@ -62,6 +62,124 @@ __Current features that do not work:__
 __Known Incompatibilities:__
 * Issues with Valheim Plus Invincible Tames (throws an error, not game breaking)
 * Tames entering WardIsLove wards can throw an error (Also not game breaking)
+## Changelog
+
+<details>
+
+Version 1.3.1
+* Fixed issue where could not add dragon eggs to Moder altar
+* Made dragon eggs default stack to 20 except if special
+   
+Version 1.3
+* Added ability to specify a custom egg as offspring
+* Made eggs have level that will carry over when hatched
+* Made eggs inherit CLLC infusion/extra effect same as normal offspring  
+* Made dragon eggs work the same as chicken eggs to hatch near fire  
+* Added advanced taming stick that can command multiple tames in an area  
+* Moved increased interact range to only be on advanced taming stick  
+* Added Tier 3 taming food  
+* Fixed issue with specific offspring not getting changed back to default  
+* Made default tamelist taming values closer to vanilla (mostly with growup time)  
+* Can now specify child offsping using specificOffspring and will not make a mini version of it  
+* Made compatible with Hildir Update  
+* Split mutation chances into three separate chances
+* Added ability to specify group in config so tamed and wild of different prefabs won't attack eachother
+* Fixed issue where logging out did not properly reset config so should be able to change world/servers without quitting game
+  
+Version 1.2.1
+* Fixed incompatibility with Auto_Feed
+  
+Version 1.2.0
+* Increased interact range with tame stick for creatures (can hover over them from further)
+* Added taming food that when a creature consumes it will decrease taming time
+* Changed sooth effect to be calmer
+* Fixed default tamelist carrying over from file to file
+  
+Version 1.1.5
+* Added Simple config option to only allow for simple procreation (use default vanilla)
+* Removed the ability to specify creatures for taming in normal config (meldurson.valheim.AllTameable)
+* If updating and specifying creatures in meldurson.valheim.AllTameable, will create TameList for you
+* If not updating or do not specify creatures in meldurson.valheim.AllTameable then will make a Tamelist (Same as Vanilla TameList)
+* Made complex procreation more stable
+* Fixed issue where could find closest mate to be same creature even when set to canMateWithSelf=false
+* Removed the need for adding a "-1" on a line in TameList that only specifies mates
+* Changed ranges to scale with "size" in TameList
+* Changed UpdatedInterval to closer to Vanilla
+  
+Version 1.1.4
+* Added ability to set default in Tamelist
+* Added ability to specify attributes by name in tamelist to change them
+* Added custom attribute canMateWithSelf so creature can only mate with different creature
+* Added custom attribute specificOffspring with probability of specific offspring
+* Added ability to have multiple Tamelist files making it easier for mods
+* Fixed not being able to specify different mates on separate lines
+* Fixed maxCreatures allowing double what it should
+  
+Version 1.1.3
+* Changed way procreation works to remove errors
+* Fixed error of infinite spawns if error when growing up
+* Fixed minor error when chickens lay eggs
+* Added more information when using taming tool in debug mode
+  
+Version 1.1.2
+* Added functionality to trade for instant tame
+* Changed petting and taming sounds to be specific to tame and not just wolf growl
+* Fixed issues with reading Tamelist for accomodating different number formats
+* Added funtionality that small errors in tamelist will create notification but not break tame
+* Fixed issue with default config file tames not updating change faction and procreation correctly
+  
+Version 1.1.1
+* Updated to Mistlands update
+* Added ability to have Seeker Broods as Offspring from Seekers or Seeker Brutes
+  
+Version 1.1.0
+* Added ability to tame passive creatures (That have AnimalAI not MonsterAI)
+* Added ability for different creatures to mate with eachother (such as male/female)
+* Allowed for procreation of Humans created with RRRNPC
+* Fixed issue where offspring would sometimes be untamed and attack everything
+* Fixed issue of duplicating Dragon Egg
+* Renamed to AllTameable Taming Overhaul
+* Made looking at creatures with taming stick be a little more descriptive on what is missing
+* Created a small separate optional patch for RRRNPC to help with taming errors
+  
+Version 1.0.7
+* Fixed Deer and MountUp issue
+* Added ability for consuming to provide a set heal on top of regen
+* Made regen not say "+0" if regenerating a small amount of health (added healing vfx)
+  
+Version 1.0.6
+* Added ability to tame deer
+* Added optional CLLC integration
+* Added tamelist format to remove ability to tame (useful for servers)
+* Added breeding inheritance for CLLC
+* Added mutation chance with breeding
+* Fixed issue with two creatures of the same breed trying to kill each other if one tames before the other
+* Added ability to get random level out of hatched dragon eggs
+  
+Version 1.0.5
+* Fixed issue with dragon egg sometimes teleporting to spawn when interreacting with fire
+* Added ability to pick up eggs once set down for hatching
+  
+Version 1.0.4
+* Fixed some people unable to breed any creature
+* Fixed raw meat disappearing on cooking rack
+* Added more info when hovering over creature with taming tool
+* Added a debug option in config that when set to false removes many lines from the debug window
+* When debug set to true, taming stick will show exactly why a creature isn't breading
+  
+Version 1.0.3
+* Added an easier way to load and manage creatures using the TameList
+* Fixed ability to hatch dragon eggs
+* Added built-in server config sync
+* Optimized Startup loading
+* Fixed closest creature when loading in to have incorrect taming properties
+  
+Version 1.0.0
+* Updated to hearth and home update
+* Added support for creatures added by mods
+* Added dedicated server support
+* Added a taming tool to see each creatures taming requirements
+</details>
 
 ## Installation Instructions:
 
