@@ -66,6 +66,10 @@ __Known Incompatibilities:__
 
 <details>
 
+Version 1.3.2
+* Fixed incompatibility with JewelCrafting
+* Adjusted chicken size to scale better with levels
+ 
 Version 1.3.1
 * Fixed issue where could not add dragon eggs to Moder altar
 * Made dragon eggs default stack to 20 except if special
