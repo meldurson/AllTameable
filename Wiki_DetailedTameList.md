@@ -62,20 +62,22 @@ __The Sixth Line:__
 \- The egg will hatch after `1200` seconds into a *Mini Neck* which will grow into a Neck after an aditional `2000` seconds (From the Default).  
 
 
-
-This is what the default Boar would look like if put into the tamelist:
+## References
+This is what the default creatures would look like if put into the tamelist:
 
     Boar,false,1800,600,1,15,30,10,Raspberry:Blueberries:Carrot:Turnip:Mushroom:Onion,false,true,5,0.33,60,3000
-If you want to add the ability to tame Deer and make it so it can eat any vegetarian food you could add:
-
-    Deer,true,1500,300,1.4,10,30,15,Raspberry:Blueberries:Carrot:Turnip:Mushroom:Cloudberry:OnionSoup:Onion,false,true,7,0.66,90,2000
-
-To make two different prefabs able to breed with each other separate their ID with a colon such as:  
-
-    RRRN_HumanMale:RRRN_HumanFemale,true,900,150,2,10,30,20,CookedMeat,true,true,10,0.66,150,500
-
-* This will allow for both humans to breed with each other and have an equal chance of the offspring being one or the other
-
-To make a creature tameable by trading set commandable to "trade" and then format trades as Tradeitem=TradeAmount:  
-
-    Dverger,trade,BlackCore=5:Coins=999
+    Wolf,true,1800,600,1.4,15,30,10,RawMeat:NeckTail:FishRaw:DeerMeat:Sausages:LoxMeat,false,true,4,0.33,60,3000
+    Lox,true,1800,600,4,15,30,10,Barley:Cloudberry:Flax,false,true,5,0.33,120,6000,size=2
+    Hen,false,1800,600,1,15,30,10,CarrotSeeds:OnionSeeds:TurnipSeeds:BeechSeeds:BirchSeeds:Barley:Dandelion,false,true,5,0.33,60,3000,specificOffspring=Hen(Chicken:100)
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
