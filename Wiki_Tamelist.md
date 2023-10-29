@@ -8,7 +8,6 @@ Every file that you want to be read when the game loads should be a __.cfg__ and
 
 ### Premade Tamelists
 
-
 * [TameList Vanilla](https://github.com/meldurson/AllTameable/blob/main/TameList%20Vanilla.zip) currated list with increasing difficulty to tame
 * [TameList Simple](https://github.com/meldurson/AllTameable/blob/main/TameList%20Simple.zip) sticks to vanilla taming except for what you can feed
 
