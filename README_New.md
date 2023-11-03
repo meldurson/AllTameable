@@ -1,24 +1,25 @@
-# AllTameable
+
+![Title](https://raw.githubusercontent.com/meldurson/AllTameable/main/Pics/Title.png)
+##  
 
 ![Banner](https://raw.githubusercontent.com/meldurson/AllTameable/main/Pics/DeerHover_5to1Zoom.png)
-
 This is an overhaul and rewrite of [AllTameable](https://www.nexusmods.com/valheim/mods/478?tab=description) from Buzz.
 
 
-I made this so I could use it on a dedicated server and ended up adding features that I wanted to have. I can only work on this in my spare time, if you enjoy the mod and want and have the ability to send a few bucks you can on [Ko-fi](https://ko-fi.com/meldurson)
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/B0B3NARM0)
 
-![DNA](https://raw.githubusercontent.com/meldurson/AllTameable/main/Pics/DragonDNA_5to1Zoom.png)
+
 
 ## DNA
 * All tameable creates can now have random colour and traits
 * You can toggle both if you just want colour or just want traits
 * Same as everything else, when breeding will inherit with variance from parents
-* New equipment to show you a creatures DNA
-##
+* New equipment to show you a creatures DNA  
 
-![Items](https://raw.githubusercontent.com/meldurson/AllTameable/main/Pics/Items_5to1.png)
+![DNA](https://raw.githubusercontent.com/meldurson/AllTameable/main/Pics/DragonDNA_5to1Zoom.png)  
+
+
+
 ## New in 1.3
 * Works with Hildir's Update
 * Complete overhaul of eggs and hatching
@@ -69,9 +70,42 @@ __Current features that do not work:__
 * <del>Ability to tame Bosses (they have special AI that is not conducive with taming)</del> fixed in version 1.3.3
 * Ability to tame Birds (also have a special AI)
 
+
+### Items:
+![Items](https://raw.githubusercontent.com/meldurson/AllTameable/main/Pics/Items_5to1.png)
+There are currently 2 tools, 2 wearables, and 4 consumables added by this mod.
+<details>
+  <summary>Recipes</summary>
+  
+| Item      | ID | Required Items |
+| ----------- | ----------- | ----------- |
+| Taming Tool      | el_TamingTool       |1 Raw Meat, 1 Red Mushroom, 1 Carrot, 1 Resin |
+| Taming Wand     | el_AdvancedTamingTool       |1 Raw Meat, 1 Red Mushroom, 1 Carrot, 1 Resin |
+| Taming Wand     | el_T1Food       |1 Raw Meat, 1 Red Mushroom, 1 Carrot, 1 Resin |
+| Taming Wand     | el_T2Food       |1 Raw Meat, 1 Red Mushroom, 1 Carrot, 1 Resin |
+| Taming Wand     | el_T3Food       |1 Raw Meat, 1 Red Mushroom, 1 Carrot, 1 Resin |
+
+</details>
+<details>
+  <summary>IDs</summary>
+Taming Tool 
+
+</details>
+
+tamestickConfig.AddRequirement(new RequirementConfig("RawMeat", 1));
+            tamestickConfig.AddRequirement(new RequirementConfig("Mushroom", 1));
+            tamestickConfig.AddRequirement(new RequirementConfig("Carrot", 1));
+            tamestickConfig.AddRequirement(new RequirementConfig("Resin", 1));
+
 __Known Incompatibilities:__
 * Issues with Valheim Plus Invincible Tames (throws an error, not game breaking)
 * Tames entering WardIsLove wards can throw an error (Also not game breaking)
+##
+
+I made this so I could use it on a dedicated server and ended up adding features that I wanted to have. I can only work on this in my spare time, if you enjoy the mod and want and have the ability to send a few bucks you can on [Ko-fi](https://ko-fi.com/meldurson)
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/B0B3NARM0)
+
 ## Changelog
 
 <details>
