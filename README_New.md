@@ -1,6 +1,6 @@
 # AllTameable
 
-![Banner](https://raw.githubusercontent.com/meldurson/AllTameable/main/Banner.png)
+![Banner](https://raw.githubusercontent.com/meldurson/AllTameable/main/Pics/DeerHover_5to1Zoom.png)
 
 This is an overhaul and rewrite of [AllTameable](https://www.nexusmods.com/valheim/mods/478?tab=description) from Buzz.
 
