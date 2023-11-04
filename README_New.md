@@ -77,26 +77,23 @@ There are currently 2 tools, 2 wearables, and 4 consumables added by this mod.
 <details>
   <summary>Recipes</summary>
   
-| Item      | ID | Required Items |
-| ----------- | ----------- | ----------- |
-| Taming Tool      | el_TamingTool       |1 Raw Meat, 1 Red Mushroom, 1 Carrot, 1 Resin |
-| Taming Wand     | el_AdvancedTamingTool       |1 Raw Meat, 1 Red Mushroom, 1 Carrot, 1 Resin |
-| Taming Wand     | el_T1Food       |1 Raw Meat, 1 Red Mushroom, 1 Carrot, 1 Resin |
-| Taming Wand     | el_T2Food       |1 Raw Meat, 1 Red Mushroom, 1 Carrot, 1 Resin |
-| Taming Wand     | el_T3Food       |1 Raw Meat, 1 Red Mushroom, 1 Carrot, 1 Resin |
+| Item      | ID | Required Items | Crafting Station |
+| ----------- | ----------- | ----------- |----------- |
+| Taming Tool      | el_TamingTool       |1 Raw Meat, 1 Red Mushroom, 1 Carrot, 1 Resin | Workbench lvl 1
+| Taming Wand     | el_AdvancedTamingTool       |3 Crystal, 2 MageCap, 5 Eitr, 10 FineWood, 2 Major Health Potion | Workbench lvl 3
+| Basic Taming Food     | el_T1Food       |2 Tasty Mead, 5 Yellow Mushroom, 2 Freeze Gland, 1 Leather Scraps | Cauldron lvl 2
+| Superior Taming Food X 3     | el_T2Food       |6 Medium Health Potion, 10 Barley Flour, 1 Dragon Tear | Cauldron lvl 3
+| Excellent Taming Food     | el_T3Food       |4 Minor Eitr Mead, 2 Major Health Potion, 1 Anglerfish, 5 MageCap | Cauldron lvl 5
+| Mead Base Speed Tame     | MeadBaseSpeedTame       |5 Wolf Trophy, 2 Superior Taming Food, 10 Honey | Cauldron lvl 1
+| Taming Potion X 4     | MeadSpeedTame       |1 Mead Base Speed Tame | Fermenter
+| Calming Gloves     | CalmingGloves       |6 Linen Thread, 2 Silver, 4 Tamed Nearby*, 5 Scale Hide | Artisan Table lvl 1
+| Taming Hat     | TamingHat       |10 Linen Thread, 2 Eitr, 10 Tamed Nearby*, 8 Scale Hide | Galdr Table lvl 1
 
+
+\* Must have __X__ number of tamed creatures nearby (10m) when attempting crafting
 </details>
-<details>
-  <summary>IDs</summary>
-Taming Tool 
 
-</details>
-
-tamestickConfig.AddRequirement(new RequirementConfig("RawMeat", 1));
-            tamestickConfig.AddRequirement(new RequirementConfig("Mushroom", 1));
-            tamestickConfig.AddRequirement(new RequirementConfig("Carrot", 1));
-            tamestickConfig.AddRequirement(new RequirementConfig("Resin", 1));
-
+##
 __Known Incompatibilities:__
 * Issues with Valheim Plus Invincible Tames (throws an error, not game breaking)
 * Tames entering WardIsLove wards can throw an error (Also not game breaking)
@@ -110,6 +107,19 @@ I made this so I could use it on a dedicated server and ended up adding features
 
 <details>
 
+Version 1.3.3
+* Added DNA to all creatures modified by AllTameable
+* Added Calming Gloves, Taming Hat, and Taming Potion
+* Fixed taming of some creatures that are set to hunt player
+* Made so tamed bosses will no longer create weather effects or have a boss bar
+* Added equipment to children (not weapons)
+* Made groups able to be set for creatures that are set to not be tameable
+* When trying to reproduce will take into account all possible mates and offspring to determine max amount in area
+* Fixed issue with loading eggs when logging out
+* Fixed error with children of creatures that talk (Dverger)
+* No longer can interact with fire with a Dragon Egg, need to hatch like chicken egg
+* Taming Tool uses resin again to craft instead of Dragon Egg
+ 
 Version 1.3.2
 * Fixed incompatibility with JewelCrafting
 * Adjusted chicken size to scale better with levels
