@@ -5,11 +5,6 @@
 ![Banner](https://raw.githubusercontent.com/meldurson/AllTameable/main/Pics/DeerHover_5to1Zoom.png)
 This is an overhaul and rewrite of [AllTameable](https://www.nexusmods.com/valheim/mods/478?tab=description) from Buzz.
 
-
-
-
-
-
 ## DNA
 * All tameable creates can now have random colour and traits
 * You can toggle both if you just want colour or just want traits
