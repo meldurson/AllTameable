@@ -107,7 +107,7 @@ This is what the default creatures would look like if put into the tamelist:
     Boar,false,1800,600,1,15,30,10,Raspberry:Blueberries:Carrot:Turnip:Mushroom:Onion,false,true,5,0.33,60,3000
     Wolf,true,1800,600,1.4,15,30,10,RawMeat:NeckTail:FishRaw:DeerMeat:Sausages:LoxMeat,false,true,4,0.33,60,3000
     Lox,false,1800,600,4,15,30,10,Barley:Cloudberry:Flax,false,true,5,0.33,120,6000,size=2
-    Hen,false,1800,600,1,15,30,10,CarrotSeeds:OnionSeeds:TurnipSeeds:BeechSeeds:BirchSeeds:Barley:Dandelion,false,true,5,0.33,60,1800
+    Hen,false,1800,600,1,15,30,10,CarrotSeeds:OnionSeeds:TurnipSeeds:BeechSeeds:BirchSeeds:Barley:Dandelion,false,true,10,0.33,60,1800
     
 ## Premade Tamelists  
 
