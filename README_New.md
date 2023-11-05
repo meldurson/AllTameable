@@ -31,9 +31,9 @@ This is an overhaul and rewrite of [AllTameable](https://www.nexusmods.com/valhe
 __The current state of the mod includes the following features:__
 ![Creatures](https://raw.githubusercontent.com/meldurson/AllTameable/main/Pics/LoxHatchlingUlv_5to1.png)
 
-* Ability to tame any creature specified in the config including added by RRRM (Others may work I just haven't tested)
+* Ability to tame any creature specified in the config including added other mods
 * Works in singleplayer, multiplayer, and dedicated server as long as all parties and the server have the mod installed
-* Added a craftable item that when hovering over a creature and wielding the item it will show taming time and acceptable consumables
+* Added craftable items that when hovering over a creature and wielding the item it will show taming time and acceptable consumables
 * Ability to have hatchable dragon eggs
 * New Config solution to more easily manage creature tames
 * CLLC integration(Optional):
@@ -89,10 +89,7 @@ There are currently 2 tools, 2 wearables, and 4 consumables added by this mod.
 </details>
 
 ##
-__Known Incompatibilities:__
-* Issues with Valheim Plus Invincible Tames (throws an error, not game breaking)
-* Tames entering WardIsLove wards can throw an error (Also not game breaking)
-##
+
 
 I made this so I could use it on a dedicated server and ended up adding features that I wanted to have. I can only work on this in my spare time, if you enjoy the mod and want and have the ability to send a few bucks you can on [Ko-fi](https://ko-fi.com/meldurson)
 
@@ -235,6 +232,8 @@ Version 1.0.0
 </details>
 
 ![Soldier Egg](https://raw.githubusercontent.com/meldurson/AllTameable/main/Pics/SeekerSoldierEgg_5to1.png)
+
+
 ## Installation Instructions:
 
 * Download the main file with a mod manager or manually place the DLL file in the plugins folder
@@ -252,6 +251,11 @@ __Note:__ The new TameList <del>is optional</del> _is now required_, if you alre
 ### [Configuration](https://github.com/meldurson/AllTameable/blob/main/Wiki_Tamelist.md)
 Explanation and overview of how to format the Tamelist can be found on the [wiki](https://github.com/meldurson/AllTameable/blob/main/Wiki_Tamelist.md)
 and a more detailed version can be found [here](https://github.com/meldurson/AllTameable/blob/main/Wiki_DetailedTameList.md)
+
+
+### Known Incompatibilities:
+* Issues with Valheim Plus Invincible Tames (throws an error, not game breaking)
+* Tames entering WardIsLove wards can throw an error (Also not game breaking)
 
 
 ## Troubleshooting
