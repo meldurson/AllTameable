@@ -8,7 +8,7 @@ This is an overhaul and rewrite of [AllTameable](https://www.nexusmods.com/valhe
 ## DNA
 * All tameable creates can now have random colour and traits
 * You can toggle both if you just want colour or just want traits
-* Same as everything else, when breeding will inherit with variance from parents
+* Same as everything else, when breeding will inherit with variance from parents ( *Requires [CLLC](https://valheim.thunderstore.io/package/Smoothbrain/CreatureLevelAndLootControl/)* )
 * New equipment to show you a creatures DNA  
 
 ![DNA](https://raw.githubusercontent.com/meldurson/AllTameable/main/Pics/DragonDNA_5to1Zoom.png)  
