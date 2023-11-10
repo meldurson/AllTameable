@@ -1,24 +1,24 @@
-# How to Format the Tamelist
-You can have as many __Tamelist__ files in your config folder as you want and they will all be read.
+# How to Format the TameList
+You can have as many __TameList__ files in your config folder as you want and they will all be read.
 Every file that you want to be read when the game loads should be a __.cfg__ and have a name starting with __AllTameable_TameList__:  
 ### Examples:   
 - __AllTameable_TameList.cfg__  
 - __AllTameable_TameList_From_Default.cfg__
 - __AllTameable_TameList__*ModName*__.cfg__
 
-### Premade Tamelists
+### Premade TameLists
 
-* [TameList Vanilla](https://github.com/meldurson/AllTameable/blob/main/TameList%20Vanilla.zip) currated list with increasing difficulty to tame
-* [TameList Simple](https://github.com/meldurson/AllTameable/blob/main/TameList%20Simple.zip) sticks to vanilla taming except for what you can feed
+* [TameList Vanilla](https://github.com/meldurson/AllTameable/blob/main/TameList%20Vanilla.zip) curated list with increasing difficulty to tame.
+* [TameList Simple](https://github.com/meldurson/AllTameable/blob/main/TameList%20Simple.zip) sticks to vanilla taming except for what you can feed.
 
 
 ## Configuration
 
-A more detailed explanation and example of configuring the Tamelist can be found [here](https://github.com/meldurson/AllTameable/blob/main/Wiki_DetailedTameList.md)  
+A more detailed explanation and example of configuring the TameList can be found [here](https://github.com/meldurson/AllTameable/blob/main/Wiki_DetailedTameList.md)  
 
-__Each line on the tamelist that does not start with a '#' will be attempted to read as a tameable creature__
+__Each line on the TameList that does not start with a '#' will be attempted to read as a tameable creature.__
 
-Each line is separated by commas __,__ and will read from left to right until there are no more items  
+Each line is separated by commas __,__ and will read from left to right until there are no more items.  
 
 __The order is as follows:__  
 `name, commandable, tamingTime, fedDuration, consumeRange, consumeSearchInterval, consumeHeal, consumeSearchRange, consumeItems, changeFaction, procretion, maxCreatures, pregnancyChance, pregnancyDuration, growTime`  
@@ -35,16 +35,16 @@ __The order is as follows:__
 * __consumeItems:__ This is where you put the ID's of the items you want the creature to eat, put a : symbol in between each food (doesn't need to be a food item)
 * __changeFaction:__ This is whether the creature will change faction when tamed (If set to true it will attack/get attacked by anything that attacks you)
 * __procretion:__ This is whether the creature can breed to produce offspring (can set to _overwrite_ if there is already an offspring programmed in that you want to replace)
-* __maxCreatures:__ This is the max amount of creatures within range that can breed with or are offspring, if it exceeds this they will stop breeding
+* __maxCreatures:__ This is the max number of creatures within range that can breed with or are offspring, if it exceeds this, they will stop breeding
 * __pregnancyChance:__ This is the chance the creature has of becoming pregnant, Lower number = higher chance (scales from 0.00 to 1.00)
 * __pregnancyDuration:__ This is how long the creature is pregnant for (In seconds)
 * __growTime:__ This is how long it takes for offspring to grow into an adult (In seconds)
 
 __Examples:__  
-This is what the default Boar would look like if put into the tamelist:
+This is what the default Boar would look like if put into the TameList:
 
     Boar,false,1800,600,1,15,30,10,Raspberry:Blueberries:Carrot:Turnip:Mushroom:Onion,false,true,5,0.33,60,3000
-If you want to add the ability to tame Deer and make it so it can eat any vegetarian food you could add:
+If you want to add the ability to tame Deer and make it so it can eat any vegetarian food, you could add:
 
     Deer,true,1500,300,1.4,10,30,15,Raspberry:Blueberries:Carrot:Turnip:Mushroom:Cloudberry:OnionSoup:Onion,false,true,7,0.66,90,2000
 
@@ -52,7 +52,7 @@ To make two different prefabs able to breed with each other separate their ID wi
 
     RRRN_HumanMale:RRRN_HumanFemale,true,900,150,2,10,30,20,CookedMeat,true,true,10,0.66,150,500
 
-* This will allow for both humans to breed with each other and have an equal chance of the offspring being one or the other
+* This will allow for both humans to breed with each other and have an equal chance of the offspring being one or the other.
 
 To make a creature tameable by trading set commandable to "trade" and then format trades as Tradeitem=TradeAmount:  
 
@@ -61,21 +61,21 @@ To make a creature tameable by trading set commandable to "trade" and then forma
 * This will allow to tame a Dverger with either 5 Black Cores or 999 Coins (Note: if wanting to tame by feeding and trade then place trade line after feed line)
 
 
-To make a creature not tameable you set the line to the creature name plus a -1 such as:  
+To make a creature not tameable you set the line to the creature's name plus a -1 such as:  
 
     Wolf,-1
 
-* This will not allow for wolves to be tamed
+* This will not allow for wolves to be tamed.
 
-__Note:__ This should be used on servers to set creatures you don't want tamed
+__Note:__ This should be used on servers to set creatures you don't want tamed.
 
 
-Any line starting with a # in AllTameable_Tamelist will be skipped from calculating into the tamelist  
+Any line starting with a # in AllTameable_Tamelist will be skipped from calculating into the TameList.  
 You can multiple AllTameable_Tamelist\*.cfg files where \* can be anything such as AllTameable_Tamelist_RRR.cfg  
 
 ### Setting the Default
-Starting a line with a '\*' will then set all atributes in that as the default going forward allowing to only specify attributes you change,  
-You can specify a new default at any time by starting a new line with '\*' as shown below the Boar will have the same attributes as Default and Deer with have the same attributes as Tier_1 the Neck will have the same attributes as Tier_1 with dfferent consumeItems  
+Starting a line with a '\*' will then set all attributes in that as the default going forward allowing to only specify attributes you change,  
+You can specify a new default at any time by starting a new line with '\*' as shown below the Boar will have the same attributes as Default and Deer with have the same attributes as Tier_1 the Neck will have the same attributes as Tier_1 with different consumeItems.  
 
     *Default,true,1500,300,1.4,10,30,15,Raspberry:Blueberries:Carrot:Turnip:Mushroom:Cloudberry:OnionSoup:Onion,false,true,7,0.66,90,2000
     Boar
@@ -90,18 +90,18 @@ __example:__
 
     *Default,true,1500,300,1.4,10,30,15,Raspberry:Blueberries:Carrot:Turnip:Mushroom:Cloudberry:OnionSoup:Onion,false,true,7,0.66,90,2000
     Surtling,consumeItems=Coal:ElderBark  
-This will use all the default values except for consumeItems  
-__This can make your tamelists more readable and if you want to change something it will be faster to change as you may only need to change the default values__
+This will use all the default values except for consumeItems.  
+__This can make your TameLists more readable and if you want to change something it will be faster to change as you may only need to change the default values.__
 
 ## Custom Options:
 
-### **Custom options have to be referenced by name in your Tamelist files\**
+### **Custom options have to be referenced by name in your TameList files.\**
 
 __canMateWithSelf:__ default=true, options:true,false  
 Makes it so can only mate with other creatures that have been specified and not creatures with the same prefab *(Useful for male/female of same creature)*  
 
 __specificOffspring:__ default=none, specify in the form __Mate(offspring1:chance1/offspring2:chance2/...)__  
-The following will make it so can only breed Goblins when breeding GoblinShaman and GoblinBrute with an 80% chance and when breeding two GoblinShaman there is a 70% chance to get a GoblinBrute and 30% to get a GoblinShaman
+The following will make it so can only breed Goblins when breeding GoblinShaman and GoblinBrute with an 80% chance and when breeding two GoblinShaman there is a 70% chance to get a GoblinBrute and 30% to get a GoblinShaman.
 
     Goblin,-1  
     *GoblinElites,true,2300,500,2,10,90,15,SerpentMeatCooked:CookedLoxMeat:BloodPudding:FishWraps:LoxPie:TurnipStew:SerpentStew:BlackSoup:WolfMeatSkewer:WolfJerky:CookedWolfMeat:CookedHareMeat,false,true,5,0.66,200,3200  
@@ -111,20 +111,20 @@ The following will make it so can only breed Goblins when breeding GoblinShaman 
 __size:__ default=1, options: 0.5-4  
 multiplier to determine how far away it checks for other creatures, most creatures you will not have to change.
 Lox should be at least 2, Vanilla Bosses should be 3, 4 is only if it is massive!
-You can use decimals and specify a smaller range if you choose such as 0.5 for a small creature such as a hen
+You can use decimals and specify a smaller range if you choose such as 0.5 for a small creature such as a hen.
 
     Lox,true,2000,150,3,10,30,20,Barley:Cloudberry:Flax:Onion,false,true,6,0.66,150,4500,size=2
 
 __group:__ default=none  
-Groups are used to determine if mobs will be hostile towards eachother, if two mobs have the same group then if one is tamed and the other wild they will still not attack eachother  
-group can equal whatever name you want for example, if you add group=AllGoblin to all of the goblins they will not attack eachother if one is tamed and the other is wild
+Groups are used to determine if mobs will be hostile towards each other, if two mobs have the same group then if one is tamed and the other wild they will still not attack each other.  
+group can equal whatever name you want for example, if you add group=AllGoblin to all of the goblins they will not attack each other if one is tamed and the other is wild.
 
 __egg:__ drake/chicken(hatchtime:color:size),  default(1800:default:1)  
-Have the creature lay an egg that will hatch into a mini version  
-Choose which egg to copy, how long it will take to hatch when near a fire, if you want to change the color, if you want to change the size  
+Have the creature lay an egg that will hatch into a mini version.  
+Choose which egg to copy, how long it will take to hatch when near a fire, if you want to change the color, if you want to change the size.  
 by default you do not need to specify anything other than the egg type such as egg=drake or egg=chicken   
-the color is specified as a hex code such as #FFFFFF for white or #FF0000 for red  
-an example would be the following which would have necks lay a smaller version of the dragon egg with a color of green and a hatch time of 20 minutes  
+the color is specified as a hex code such as #FFFFFF for white or #FF0000 for red.  
+an example would be the following which would have necks lay a smaller version of the dragon egg with a color of green and a hatch time of 20 minutes.  
 
     Neck,egg=drake(1200:#00FF00:0.3)
 
