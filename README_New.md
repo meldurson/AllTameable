@@ -6,58 +6,58 @@
 This is an overhaul and rewrite of [AllTameable](https://www.nexusmods.com/valheim/mods/478?tab=description) from Buzz.
 
 ## DNA
-* All tameable creates can now have random colour and traits
-* You can toggle both if you just want colour or just want traits
+* All tameable creates can now have random colour and traits.
+* You can toggle both if you just want colour or just want traits.
 * Same as everything else, when breeding will inherit with variance from parents ( *Requires [CLLC](https://valheim.thunderstore.io/package/Smoothbrain/CreatureLevelAndLootControl/)* )
-* New equipment to show you a creatures DNA  
+* New equipment to show you a creature's DNA.  
 
 ![DNA](https://raw.githubusercontent.com/meldurson/AllTameable/main/Pics/DragonDNA_5to1Zoom.png)  
 
 
 
 ## New in 1.3
-* Works with Hildir's Update
-* Complete overhaul of eggs and hatching
-  * Eggs now have levels inherited from parents and determines level once hatched
-  * Dragon eggs now hatch the same as chicken eggs
-  * All genetic functionality that was available with normal offspring now can apply to eggs
-* Changed where taming tools are made, now required to use a crafting table
-* Added an advanced taming tool that can be used to interact with creatures from further away and command multiple creatures at a time
-* Can cycle between different mass commands using the cycle key when looking at a tamed creature
-* Added three tiers of special taming food that reduces taming time, made in the cauldron
-* Mutation chances are now split between levels, infusions, and effects
-* Can now log out and into a different world at it will reload your configs, no more need to quit and reopen
+* Works with Hildir's Update.
+* Complete overhaul of eggs and hatching.
+  * Eggs now have levels inherited from parents and determines level once hatched.
+  * Dragon eggs now hatch the same as chicken eggs.
+  * All genetic functionality that was available with normal offspring now can apply to eggs.
+* Changed where taming tools are made, now required to use a crafting table.
+* Added an advanced taming tool that can be used to interact with creatures from further away and command multiple creatures at a time.
+* Can cycle between different mass commands using the cycle key when looking at a tamed creature.
+* Added three tiers of special taming food that reduces taming time, made in the cauldron.
+* Mutation chances are now split between levels, infusions, and effects.
+* Can now log out and into a different world at it will reload your configs, no longer need to quit and reopen.
 ##
 __The current state of the mod includes the following features:__
 ![Creatures](https://raw.githubusercontent.com/meldurson/AllTameable/main/Pics/LoxHatchlingUlv_5to1.png)
 
-* Ability to tame any creature specified in the config including added other mods
-* Works in singleplayer, multiplayer, and dedicated server as long as all parties and the server have the mod installed
-* Added craftable items that when hovering over a creature and wielding the item it will show taming time and acceptable consumables
-* Ability to have hatchable dragon eggs
-* New Config solution to more easily manage creature tames
-* CLLC integration(Optional):
-  * Levels of hatched dragon egg gets level chance from CLLC
-  * Inheritance of effect and infusion from parents
-  * Mutation chance to get a different effect/infusion
-  * Mutation chance for level to change (+1/-1) eg: two 3 star would have a chance to breed a 4 star and also 2 star
-* Added ability to remove option for taming
-* Can set a healing amount when a tame consumes an item (this feature was removed in Hearth and Home)
-* Can breed Humans added by RRRNPC
-* Can breed different creatures together (mainly useful for humans with male/female variants)
-* Can tame passive creatures such as Deer (or others added by mods such as Horems Wildlife)
-* Can have specific offspring depending on mates
-* Can set Trades for instant taming  
-* __Can turn on Simple Mode to only change taming and does not include custom procreation__
-  * If do not need complex procreation and are having issues, turn this on in config
-* Special taming food that decreases taming time
-  * Made using the cauldron and uses completed tasty mead
-  * Potion that can be drank that speeds up taming of all creatures in area
-* Increased reach for interaction with creatures when using the taming tool
-* Can have creatures lay eggs
-* Command multiple creatures at once with taming wand
-* DNA that is randomized for every creature and can be breed for specific traits
-* Equipment to help with taming and breeding
+* Ability to tame any creature specified in the config including added other mods.
+* Works in singleplayer, multiplayer, and dedicated server as long as all parties and the server have the mod installed.
+* Added craftable items that when hovering over a creature and wielding the item it will show taming time and acceptable consumables.
+* Ability to have hatchable dragon eggs.
+* New Config solution to manage creature tames more easily.
+* CLLC integration (Optional):
+  * Levels of hatched dragon egg gets level chance from CLLC.
+  * Inheritance of effect and infusion from parents.
+  * Mutation chance to get a different effect/infusion.
+  * Mutation chance for level to change (+1/-1) eg: two 3 star creatures would have a chance to breed a 4 star and also 2 star.
+* Added ability to remove option for taming.
+* Can set a healing amount when a tame consumes an item (this feature was removed in Hearth and Home).
+* Can breed Humans added by RRRNPC.
+* Can breed different creatures together (mainly useful for humans with male/female variants).
+* Can tame passive creatures such as Deer (or others added by mods such as Horems Wildlife).
+* Can have specific offspring depending on mates.
+* Can set Trades for instant taming.  
+* __Can turn on Simple Mode to only change taming and does not include custom procreation.__
+  * If do not need complex procreation and are having issues, turn this on in config.
+* Special taming food that decreases taming time.
+  * Made using the cauldron and uses completed tasty mead.
+  * Potion that can be drank that speeds up taming of all creatures in area.
+* Increased reach for interaction with creatures when using the taming tool.
+* Can have creatures lay eggs.
+* Command multiple creatures at once with taming wand.
+* DNA that is randomized for every creature and can be breed for specific traits.
+* Equipment to help with taming and breeding.
 * __Can tame some bosses!__
 ![Modor](https://raw.githubusercontent.com/meldurson/AllTameable/main/Pics/DragonTower5to1.png)
 
@@ -236,20 +236,20 @@ Version 1.0.0
 
 ## Installation Instructions:
 
-* Download the main file with a mod manager or manually place the DLL file in the plugins folder
-* Download one of the TameList in the optional files section and place in the config folder
-  * [TameList Vanilla](https://github.com/meldurson/AllTameable/blob/main/TameList%20Vanilla.zip) currated list with increasing difficulty to tame
-  * [TameList Simple](https://github.com/meldurson/AllTameable/blob/main/TameList%20Simple.zip) sticks to vanilla taming except for what you can feed
-  * [Tamelist EpicValheim](https://github.com/meldurson/AllTameable/blob/main/Tamelist%20EpicValheim.zip) old
+* Download the main file with a mod manager or manually place the DLL file in the plugins folder.
+* Download one of the TameList in the optional files section and place in the config folder.
+  * [TameList Vanilla](https://github.com/meldurson/AllTameable/blob/main/TameList%20Vanilla.zip) curated list with increasing difficulty to tame.
+  * [TameList Simple](https://github.com/meldurson/AllTameable/blob/main/TameList%20Simple.zip) sticks to vanilla taming except for what you can feed.
+  * [TameList EpicValheim](https://github.com/meldurson/AllTameable/blob/main/Tamelist%20EpicValheim.zip) old
   * [TameList DoD](https://github.com/meldurson/AllTameable/blob/main/TameList%20DoD.zip) old
-* Open the TameList file and modify to your hearts content, including adding creatures that are added by mods as long as it follows the correct format
-* <del>If wanting to modify tame of RRRNPC then I recommend using my [RRRCore Taming Patch](https://github.com/meldurson/AllTameable/raw/main/RRRCoreTamingPatch_0.0.1.zip)</del> now included in main mod
+* Open the TameList file and modify to your hearts content, including adding creatures that are added by mods as long as it follows the correct format.
+* <del>If wanting to modify tame of RRRNPC then I recommend using my [RRRCore Taming Patch](https://github.com/meldurson/AllTameable/raw/main/RRRCoreTamingPatch_0.0.1.zip)</del> now included in main mod.
 
-__Note:__ The new TameList <del>is optional</del> _is now required_, if you already have the original config file you do not need to download any extra files. The TameList file with override if it is found when loaded, otherwise the "meldurson.valheim.AllTameable.cfg" is used to create a new Tamelist.
+__Note:__ The new TameList <del>is optional</del> _is now required_, if you already have the original config file you do not need to download any extra files. The TameList file with override if it is found when loaded, otherwise the "meldurson.valheim.AllTameable.cfg" is used to create a new TameList.
 
 
 ### [Configuration](https://github.com/meldurson/AllTameable/blob/main/Wiki_Tamelist.md)
-Explanation and overview of how to format the Tamelist can be found on the [wiki](https://github.com/meldurson/AllTameable/blob/main/Wiki_Tamelist.md)
+Explanation and overview of how to format the TameList can be found on the [wiki](https://github.com/meldurson/AllTameable/blob/main/Wiki_Tamelist.md)
 and a more detailed version can be found [here](https://github.com/meldurson/AllTameable/blob/main/Wiki_DetailedTameList.md)
 
 
@@ -274,5 +274,5 @@ __If a creature is not procreating then there are a couple steps you can take:__
 4. If it says Needs Mate then it will let you know the creatures that are around
 5. If it says Error then it will post in Bepinex what the error is (Note: For 30s-1m after loading into a world there may be some errors with other mods that affect spawning that should go away)
 
-   If none of that works then reach out to me on the [Valheim Modding Discord](https://discord.com/invite/GUEBuCuAMz) 
+   If none of that works, then reach out to me on the [Valheim Modding Discord](https://discord.com/invite/GUEBuCuAMz) 
 
