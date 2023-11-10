@@ -1,5 +1,6 @@
 # In Depth Explanations of Tamelist
 
+An overview of configuring the Tamelist can be found [here](https://github.com/meldurson/AllTameable/blob/main/Wiki_Tamelist.md)  
 Every line, if no attributes named will be formated like so:
 
 `name, commandable, tamingTime, fedDuration, consumeRange, consumeSearchInterval, consumeHeal, consumeSearchRange, consumeItems, changeFaction, procretion, maxCreatures, pregnancyChance, pregnancyDuration, growTime`
