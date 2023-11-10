@@ -13,6 +13,9 @@ Every file that you want to be read when the game loads should be a __.cfg__ and
 
 
 ## Configuration
+
+A more detailed explanation and example of configuring the Tamelist can be found [here](https://github.com/meldurson/AllTameable/blob/main/Wiki_DetailedTameList.md)  
+
 __Each line on the tamelist that does not start with a '#' will be attempted to read as a tameable creature__
 
 Each line is separated by commas __,__ and will read from left to right until there are no more items  
