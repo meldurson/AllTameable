@@ -37,7 +37,7 @@ This is an overhaul and rewrite of [AllTameable](https://www.nexusmods.com/valhe
      *   +10,-9.7 for Size *0.77x1.2x1.1=1 increase* , *1.3x0.83x0.9=0.97 decrease*
  </details>  
 
-* As the new DNA system is a major overhaul and is quite complex, if you have any issues, [let me know](https://github.com/meldurson/AllTameable/edit/main/README_New.md#contact) and I can try and fix them.
+* As the new DNA system is a major overhaul and is quite complex, if you have any issues, [let me know](https://github.com/meldurson/AllTameable/blob/main/README_New.md#contact) and I can try and fix them.
 * If you have errors or do not want the DNA system you can disable it in the config.
 * Also, if you have any suggestions on how the DNA system or the mod can be improved, feel free to make a suggestion [here](https://github.com/meldurson/AllTameable/discussions/2)
   
