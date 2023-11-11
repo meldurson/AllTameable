@@ -37,6 +37,10 @@ This is an overhaul and rewrite of [AllTameable](https://www.nexusmods.com/valhe
      *   +10,-9.7 for Size *0.77x1.2x1.1=1 increase* , *1.3x0.83x0.9=0.97 decrease*
  </details>  
 
+* As the new DNA system is a major overhaul and is quite complex, if you have any issues, [let me know](https://github.com/meldurson/AllTameable/edit/main/README_New.md#contact) and I can try and fix them.
+* If you have errors or do not want the DNA system you can disable it in the config.
+* Also, if you have any suggestions on how the DNA system or the mod can be improved, feel free to make a suggestion [here](https://github.com/meldurson/AllTameable/discussions/2)
+  
 ![DNA](https://raw.githubusercontent.com/meldurson/AllTameable/main/Pics/DragonDNA_5to1Zoom.png)  
 
 
@@ -302,3 +306,5 @@ __If a creature is not procreating then there are a couple steps you can take:__
 
    If none of that works, then reach out to me on the [Valheim Modding Discord](https://discord.com/invite/GUEBuCuAMz) 
 
+### Contact:
+The most reliable way to reach out would be to ping me in the [Valheim Modding Discord](https://discord.com/invite/GUEBuCuAMz) under @Meldurson or dm me on Discord.
