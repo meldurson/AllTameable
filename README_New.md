@@ -9,7 +9,33 @@ This is an overhaul and rewrite of [AllTameable](https://www.nexusmods.com/valhe
 * All tameable creates can now have random colour and traits.
 * You can toggle both if you just want colour or just want traits.
 * Same as everything else, when breeding will inherit with variance from parents ( *Requires [CLLC](https://valheim.thunderstore.io/package/Smoothbrain/CreatureLevelAndLootControl/)* )
-* New equipment to show you a creature's DNA.  
+* New equipment to show you a creature's DNA.
+* The lower other physical stats, the easier it is to get higher in another stat.  
+####
+ 
+<details>
+   <summary>Strength of Stat Effects</summary>
+  
+  | Main Stat    | Strong Effect (30%) | Medium Effect (20%) | Weak Effect (10%)|
+  | ----------- | ----------- | ----------- |----------- |
+  | Speed      | Armor     |Size | Health
+  | Armor     | Speed     |Health | Size
+  | Health     | Size     |Armor | Speed
+  | Size    | Health     |Speed | Armor
+  
+  
+  
+  __Examples:__  
+  *We will use a variance (configurable ) of 10%*
+  *  If you two creatures with all traits at 100%, the range of the trait will +-10%.
+  *  If you have two creatures with 50% Speed and 100% Armor, Health, and Size, since Speed has a Strong effect on Armor and Speed is low, the range of the Armor trait will +13%,-7.7%, for Size the range would be +12%,-8.3%, for Health the range would be +11%,-9%, and for Speed it would stay +-10%
+  *  Oppositely, if you have a 150% Speed, 100% all others, the ranges will be, +7.7%,-13% for Armor, +8.3%,-12% for Size, -9%,+11% for Health
+  *  This compounds will all traits, so if Speed, Armor, and Size are all 50% and Health is 150% the ranges would be:
+     *   +17,-5.6 for Health: *(1.3x1.2x1.1=1.7 increase)* , *(0.77x0.83x0.9 = 0.56 decrease)*
+     *   +14,-7 for Speed *1.3x1.2x0.9=1.4 increase* , *0.77x0.83x1.1 = 0.7 decrease*
+     *   +12,-8.3 for Armor *1.3x0.83x1.1=1.2 increase* , *0.77x1.2x0.9=0.83 decrease*
+     *   +10,-9.7 for Size *0.77x1.2x1.1=1 increase* , *1.3x0.83x0.9=0.97 decrease*
+ </details>  
 
 ![DNA](https://raw.githubusercontent.com/meldurson/AllTameable/main/Pics/DragonDNA_5to1Zoom.png)  
 
