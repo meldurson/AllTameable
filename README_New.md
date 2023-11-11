@@ -35,7 +35,9 @@ This is an overhaul and rewrite of [AllTameable](https://www.nexusmods.com/valhe
      *   +14,-7 for Speed *1.3x1.2x0.9=1.4 increase* , *0.77x0.83x1.1 = 0.7 decrease*
      *   +12,-8.3 for Armor *1.3x0.83x1.1=1.2 increase* , *0.77x1.2x0.9=0.83 decrease*
      *   +10,-9.7 for Size *0.77x1.2x1.1=1 increase* , *1.3x0.83x0.9=0.97 decrease*
+  * Detailed calculations for DNA can be found [here](https://valheim.thunderstore.io/package/Meldurson/AllTameableTamingOverhaul/wiki/574-detailed-calculations-for-dna/)
  </details>  
+ 
 
 * As the new DNA system is a major overhaul and is quite complex, if you have any issues, [let me know](https://github.com/meldurson/AllTameable/blob/main/README_New.md#contact) and I can try and fix them.
 * If you have errors or do not want the DNA system you can disable it in the config.
@@ -89,6 +91,7 @@ __The current state of the mod includes the following features:__
 * DNA that is randomized for every creature and can be breed for specific traits.
 * Equipment to help with taming and breeding.
 * __Can tame some bosses!__
+
 ![Modor](https://raw.githubusercontent.com/meldurson/AllTameable/main/Pics/DragonTower5to1.png)
 
 __Current features that do not work:__
@@ -278,9 +281,9 @@ Version 1.0.0
 __Note:__ The new TameList <del>is optional</del> _is now required_, if you already have the original config file you do not need to download any extra files. The TameList file with override if it is found when loaded, otherwise the "meldurson.valheim.AllTameable.cfg" is used to create a new TameList.
 
 
-### [Configuration](https://github.com/meldurson/AllTameable/blob/main/Wiki_Tamelist.md)
-Explanation and overview of how to format the TameList can be found on the [wiki](https://github.com/meldurson/AllTameable/blob/main/Wiki_Tamelist.md)
-and a more detailed version can be found [here](https://github.com/meldurson/AllTameable/blob/main/Wiki_DetailedTameList.md)
+### [Configuration](https://valheim.thunderstore.io/package/Meldurson/AllTameableTamingOverhaul/wiki/572-how-to-format-the-tamelist/)
+Explanation and overview of how to format the TameList can be found on the [wiki](https://valheim.thunderstore.io/package/Meldurson/AllTameableTamingOverhaul/wiki/572-how-to-format-the-tamelist/)
+and a more detailed version can be found [here](https://valheim.thunderstore.io/package/Meldurson/AllTameableTamingOverhaul/wiki/573-in-depth-explanations-of-tamelist/)
 
 
 ### Known Incompatibilities:
