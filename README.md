@@ -131,7 +131,11 @@ I made this so I could use it on a dedicated server and ended up adding features
 ## Changelog
 
 <details>
-
+ 
+Version 1.3.4
+* Fixed issue with Taming Hat not showing DNA
+* Made it so if only specifying creature in TameList, if already tameable will just add compatibility can not change the Taming 
+ 
 Version 1.3.3
 * Added DNA to all creatures modified by AllTameable
 * Added Calming Gloves, Taming Hat, and Taming Potion
@@ -273,10 +277,13 @@ Version 1.0.0
 * Download one of the TameList in the optional files section and place in the config folder.
   * [TameList Vanilla](https://github.com/meldurson/AllTameable/blob/main/TameList%20Vanilla.zip) curated list with increasing difficulty to tame.
   * [TameList Simple](https://github.com/meldurson/AllTameable/blob/main/TameList%20Simple.zip) sticks to vanilla taming except for what you can feed.
+  * [TameList DoD](https://github.com/meldurson/AllTameable/blob/main/TameList%20DoD.zip) 
+  * [TameList Monsterlabz](https://github.com/meldurson/AllTameable/blob/main/TameList%20MonsterLabz.zip)
+  * [TameList Monstrum](https://github.com/meldurson/AllTameable/blob/main/TameList%20Monstrum.zip)
   * [TameList EpicValheim](https://github.com/meldurson/AllTameable/blob/main/Tamelist%20EpicValheim.zip) old
-  * [TameList DoD](https://github.com/meldurson/AllTameable/blob/main/TameList%20DoD.zip) old
+  
 * Open the TameList file and modify to your hearts content, including adding creatures that are added by mods as long as it follows the correct format.
-* <del>If wanting to modify tame of RRRNPC then I recommend using my [RRRCore Taming Patch](https://github.com/meldurson/AllTameable/raw/main/RRRCoreTamingPatch_0.0.1.zip)</del> now included in main mod.
+* If you have a Tamelist that you want to share, feel free to send it to me through Discord.
 
 __Note:__ The new TameList <del>is optional</del> _is now required_, if you already have the original config file you do not need to download any extra files. The TameList file with override if it is found when loaded, otherwise the "meldurson.valheim.AllTameable.cfg" is used to create a new TameList.
 
