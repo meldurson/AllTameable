@@ -132,6 +132,13 @@ I made this so I could use it on a dedicated server and ended up adding features
 
 <details>
  
+Version 1.3.5
+* Fixed issue with Eggs disapearing
+* Made it so if using DNA all tames will correctly have DNA, not just ones in tamelist
+* Fixed DNA Hover not showing up sometimes
+* Fixed eggs with CLLC effect/infusions accidentally getting copied to other eggs
+* Fixed some issues with logging out and back into worlds
+
 Version 1.3.4
 * Fixed issue with Taming Hat not showing DNA
 * Made it so if only specifying creature in TameList, if already tameable will just add compatibility can not change the Taming 
@@ -277,10 +284,10 @@ Version 1.0.0
 * Download one of the TameList in the optional files section and place in the config folder.
   * [TameList Vanilla](https://github.com/meldurson/AllTameable/blob/main/TameList%20Vanilla.zip) curated list with increasing difficulty to tame.
   * [TameList Simple](https://github.com/meldurson/AllTameable/blob/main/TameList%20Simple.zip) sticks to vanilla taming except for what you can feed.
-  * [TameList DoD](https://github.com/meldurson/AllTameable/blob/main/TameList%20DoD.zip) 
-  * [TameList Monsterlabz](https://github.com/meldurson/AllTameable/blob/main/TameList%20MonsterLabz.zip)
-  * [TameList Monstrum](https://github.com/meldurson/AllTameable/blob/main/TameList%20Monstrum.zip)
-  * [TameList EpicValheim](https://github.com/meldurson/AllTameable/blob/main/Tamelist%20EpicValheim.zip) old
+  * [TameList DoD](https://github.com/meldurson/AllTameable/blob/main/TameList%20DoD.zip) (updated Nov 23)
+  * [TameList Monsterlabz](https://github.com/meldurson/AllTameable/blob/main/TameList%20MonsterLabz.zip) (updated Nov 23)
+  * [TameList Monstrum](https://github.com/meldurson/AllTameable/blob/main/TameList%20Monstrum.zip) (updated Nov 23)
+  * [TameList EpicValheim](https://github.com/meldurson/AllTameable/blob/main/Tamelist%20EpicValheim.zip) (updated Feb 23)
   
 * Open the TameList file and modify to your hearts content, including adding creatures that are added by mods as long as it follows the correct format.
 * If you have a Tamelist that you want to share, feel free to send it to me through Discord.
