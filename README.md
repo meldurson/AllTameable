@@ -132,6 +132,10 @@ I made this so I could use it on a dedicated server and ended up adding features
 
 <details>
  
+Version 1.3.6
+* 	Lowered levels on eggs to reference amount of stars so 0 star creatures have lvl 0 eggs instead of lvl 1 eggs etc.
+* 	Added config to limit the size changes possible in DNA 
+
 Version 1.3.5
 * Fixed issue with Eggs disapearing
 * Made it so if using DNA all tames will correctly have DNA, not just ones in tamelist
