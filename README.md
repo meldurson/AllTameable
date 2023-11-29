@@ -132,6 +132,9 @@ I made this so I could use it on a dedicated server and ended up adding features
 
 <details>
  
+Version 1.3.7
+* Fixed disabling useDNA color not actually disabling color
+
 Version 1.3.6
 * Lowered levels on eggs to reference amount of stars so 0 star creatures have lvl 0 eggs instead of lvl 1 eggs etc.
 * Added config to limit the size changes possible in DNA 
