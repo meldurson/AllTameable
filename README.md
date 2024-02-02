@@ -90,7 +90,7 @@ __The current state of the mod includes the following features:__
 * Command multiple creatures at once with taming wand.
 * DNA that is randomized for every creature and can be breed for specific traits.
 * Equipment to help with taming and breeding.
-* __Can tame some bosses!__
+* __Can tame all bosses!__
 
 ![Modor](https://raw.githubusercontent.com/meldurson/AllTameable/main/Pics/DragonTower5to1.png)
 
@@ -131,7 +131,15 @@ I made this so I could use it on a dedicated server and ended up adding features
 ## Changelog
 
 <details>
- 
+
+Version 1.3.8
+* Fixed baby creatures despawning on relog
+* Bosslike creatures whos attacks spawn other creatures, when tamed, now spawn tamed creatures
+* Fixed error on joining a server from duplicate SpeedTamePotion
+* Default Tamelist now includes all Bosses, Minibosses and Gjall
+* Added a max level for mutation
+* Fixed issue where creature that was unable to procreate, and grew up from egg was getting spawned as mini instead of egg
+  
 Version 1.3.7
 * Fixed disabling useDNA color not actually disabling color
 
