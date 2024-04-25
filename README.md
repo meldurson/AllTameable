@@ -132,6 +132,12 @@ I made this so I could use it on a dedicated server and ended up adding features
 
 <details>
 
+Version 1.3.9
+* Updated to Valhiem version 0.217.46
+* Removed floating Magecap at spawn
+* Changed hover consumable items to now show localized names
+* Tamed bosses no longer cause weather effects or boss bar if alerted right after taming
+
 Version 1.3.8
 * Fixed baby creatures despawning on relog
 * Bosslike creatures whos attacks spawn other creatures, when tamed, now spawn tamed creatures
