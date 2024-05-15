@@ -48,7 +48,7 @@ This is an overhaul and rewrite of [AllTameable](https://www.nexusmods.com/valhe
 
 
 ## New in 1.3
-* Works with Hildir's Update.
+* Works with Ashlands.
 * Complete overhaul of eggs and hatching.
   * Eggs now have levels inherited from parents and determines level once hatched.
   * Dragon eggs now hatch the same as chicken eggs.
@@ -131,6 +131,13 @@ I made this so I could use it on a dedicated server and ended up adding features
 ## Changelog
 
 <details>
+
+Version 1.4.0
+* Updated to Ashlands
+* Added ability to select Asksvin egg for optional egg
+* Removed DNA dependance on CLLC
+* Adjusted DNA Colors
+* Adjusted Default Tamelist
 
 Version 1.3.9
 * Updated to Valhiem version 0.217.46
