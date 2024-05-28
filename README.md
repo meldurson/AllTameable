@@ -108,7 +108,7 @@ There are currently 2 tools, 2 wearables, and 4 consumables added by this mod.
 | Item      | ID | Required Items | Crafting Station |
 | ----------- | ----------- | ----------- |----------- |
 | Taming Tool      | el_TamingTool       |1 Raw Meat, 1 Red Mushroom, 1 Carrot, 1 Resin | Workbench lvl 1
-| Taming Wand     | el_AdvancedTamingTool       |3 Crystal, 2 MageCap, 5 Eitr, 10 FineWood, 2 Major Health Potion | Workbench lvl 3
+| Taming Wand     | el_AdvancedTamingTool       |3 MageCap, 6 Eitr, 10 FineWood, 2 Major Health Potion | Workbench lvl 3
 | Basic Taming Food     | el_T1Food       |2 Tasty Mead, 5 Yellow Mushroom, 2 Freeze Gland, 1 Leather Scraps | Cauldron lvl 2
 | Superior Taming Food X 3     | el_T2Food       |6 Medium Health Potion, 10 Barley Flour, 1 Dragon Tear | Cauldron lvl 3
 | Excellent Taming Food     | el_T3Food       |4 Minor Eitr Mead, 2 Major Health Potion, 1 Anglerfish, 5 MageCap | Cauldron lvl 5
