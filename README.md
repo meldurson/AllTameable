@@ -8,7 +8,7 @@ This is an overhaul and rewrite of [AllTameable](https://www.nexusmods.com/valhe
 ## DNA
 * All tameable creates can now have random colour and traits.
 * You can toggle both if you just want colour or just want traits.
-* Same as everything else, when breeding will inherit with variance from parents ( *Requires [CLLC](https://valheim.thunderstore.io/package/Smoothbrain/CreatureLevelAndLootControl/)* )
+* Same as everything else, when breeding will inherit with variance from parents ( *integrates with [CLLC](https://valheim.thunderstore.io/package/Smoothbrain/CreatureLevelAndLootControl/)* )
 * New equipment to show you a creature's DNA.
 * The lower other physical stats, the easier it is to get higher in another stat.  
 ####
@@ -131,6 +131,11 @@ I made this so I could use it on a dedicated server and ended up adding features
 ## Changelog
 
 <details>
+
+Version 1.4.1
+* Fixed tamed Dvergers being able to be hit by player
+* Fixed Animals not being able to move unless alerted
+* Colors of wild creatures that you tame no longer change once tamed
 
 Version 1.4.0
 * Updated to Ashlands
