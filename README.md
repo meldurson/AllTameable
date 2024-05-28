@@ -314,6 +314,7 @@ Version 1.0.0
 ## Installation Instructions:
 
 * Download the main file with a mod manager or manually place the DLL file in the plugins folder.
+* ### This mod is required to be installed on both client and server in order to function!
 * Download one of the TameList in the optional files section and place in the config folder.
   * [TameList Vanilla](https://github.com/meldurson/AllTameable/blob/main/TameList%20Vanilla.zip) curated list with increasing difficulty to tame.
   * [TameList Simple](https://github.com/meldurson/AllTameable/blob/main/TameList%20Simple.zip) sticks to vanilla taming except for what you can feed.
@@ -324,8 +325,6 @@ Version 1.0.0
   
 * Open the TameList file and modify to your hearts content, including adding creatures that are added by mods as long as it follows the correct format.
 * If you have a Tamelist that you want to share, feel free to send it to me through Discord.
-
-__Note:__ The new TameList <del>is optional</del> _is now required_, if you already have the original config file you do not need to download any extra files. The TameList file with override if it is found when loaded, otherwise the "meldurson.valheim.AllTameable.cfg" is used to create a new TameList.
 
 
 ### [Configuration](https://valheim.thunderstore.io/package/Meldurson/AllTameableTamingOverhaul/wiki/572-how-to-format-the-tamelist/)
