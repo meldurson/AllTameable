@@ -132,6 +132,12 @@ I made this so I could use it on a dedicated server and ended up adding features
 
 <details>
 
+Version 1.4.2
+* Fixed custom eggs based on Dragon Eggs failing
+* Added patch to make sure recipes with more than 4 ingredients cycle pages
+* Fixed a couple bugs
+* Fixed default tamelist
+
 Version 1.4.1
 * Fixed tamed Dvergers being able to be hit by player
 * Fixed Animals not being able to move unless alerted
