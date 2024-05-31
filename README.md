@@ -23,14 +23,14 @@ This is an almost complete rewrite of [Mount Up](https://www.nexusmods.com/valhe
   
 | Tier     | ID | Required Items | Crafting Station |
 | ---- | ----------- | ----------- |----------- |
-| 1 | SaddleT1  |6 Leather Scraps, 4 Deer Hide, 2 Hard Antler, 10 Dandelion | Workbench lvl 1
-| 2 | SaddleT2  |6 Troll Hide, 4 Deer Hide, 4 Bronze, 3 Ancient Seeds | Forge lvl 1
-| 3 | SaddleT3  |15 Deer Hide, 10 Ancient Bark, 6 Iron, 10 Guck | Forge lvl 2
-| 4 | SaddleT4  |6 Wolf Pelt, 4 Deer Hide, 2 Obsidian, 5 Silver, 10 Freeze Gland | Workbench lvl 4
-| 5 | SaddleT5  |6 Lox Pelt, 4 Deer Hide, 4 Black Metal, 1 Lox Trophy, 5 Tar | Forge lvl 3
-| 6 | SaddleT6  |15 Scale Hide, 6 Obsidian, 6 Yggdrasil Wood, 10 Sap, 3 Eitr | Workbench lvl 5
-| 7 | SaddleT7  |10 Lox Pelt, 2 Morgen Heart, 6 Flametal, 5 Tar | Forge lvl 4
-| 8 | SaddleT8  |20 Wolf Pelt, 10 Scale Hide, 1 Iolite, 50 Freeze Gland  | Artisan Table lvl 2
+| Meadows | SaddleT1  |6 Leather Scraps, 4 Deer Hide, 2 Hard Antler, 10 Dandelion | Workbench lvl 1
+| Black Forest| SaddleT2  |6 Troll Hide, 4 Deer Hide, 4 Bronze, 3 Ancient Seeds | Forge lvl 1
+| Swamp | SaddleT3  |15 Deer Hide, 10 Ancient Bark, 6 Iron, 10 Guck | Forge lvl 2
+| Mountain | SaddleT4  |6 Wolf Pelt, 4 Deer Hide, 2 Obsidian, 5 Silver, 10 Freeze Gland | Workbench lvl 4
+| Plains | SaddleT5  |6 Lox Pelt, 4 Deer Hide, 4 Black Metal, 1 Lox Trophy, 5 Tar | Forge lvl 3
+| Mistlands | SaddleT6  |15 Scale Hide, 6 Obsidian, 6 Yggdrasil Wood, 10 Sap, 3 Eitr | Workbench lvl 5
+| Ashlands | SaddleT7  |10 Lox Pelt, 2 Morgen Heart, 6 Flametal, 5 Tar | Forge lvl 4
+| Deep North| SaddleT8  |20 Wolf Pelt, 10 Scale Hide, 1 Iolite, 50 Freeze Gland  | Artisan Table lvl 2
 
 
 
