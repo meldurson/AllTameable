@@ -1,365 +1,159 @@
 
-![Title](https://raw.githubusercontent.com/meldurson/AllTameable/main/Pics/Title.png)
+![Banner](https://raw.githubusercontent.com/meldurson/MountUpRestored/main/Pics/Banner.png)
 ##  
+This is an almost complete rewrite of [Mount Up](https://www.nexusmods.com/valheim/mods/1091) from Koosemose.
 
-![Banner](https://raw.githubusercontent.com/meldurson/AllTameable/main/Pics/DeerHover_5to1Zoom.png)
-This is an overhaul and rewrite of [AllTameable](https://www.nexusmods.com/valheim/mods/478?tab=description) from Buzz.
+## Features
+* Added mounting capabilities to any tamed creature
+* Modify where you are sitting on each mountable creature
+* There are multiple tiers of saddles, one for each biome with corresponding visuals to go with it
+* Can specify how much stamina each creature has
+*  Easier adjustment and saving mounts in game
+*  YML config file for easier and more compact mount configs
+*  Can jump with creatures while riding them
+*  If creature can fly then can takeoff and land and control creature in air
+*  Can specify how much stamina is lost by creature when mounted and flying
+*  If stamina runs out while flying and mounted will be forced to land back on ground and regenerate stamina
+*  __Can now attack when mounted using attack keys!__
 
-## DNA
-* All tameable creates can now have random colour and traits.
-* You can toggle both if you just want colour or just want traits.
-* Same as everything else, when breeding will inherit with variance from parents ( *integrates with [CLLC](https://valheim.thunderstore.io/package/Smoothbrain/CreatureLevelAndLootControl/)* )
-* New equipment to show you a creature's DNA.
-* The lower other physical stats, the easier it is to get higher in another stat.  
-####
- 
-<details>
-   <summary>Strength of Stat Effects</summary>
-  
-  | Main Stat    | Strong Effect (30%) | Medium Effect (20%) | Weak Effect (10%)|
-  | ----------- | ----------- | ----------- |----------- |
-  | Speed      | Armor     |Size | Health
-  | Armor     | Speed     |Health | Size
-  | Health     | Size     |Armor | Speed
-  | Size    | Health     |Speed | Armor
-  
-  
-  
-  __Examples:__  
-  *We will use a variance (configurable ) of 10%*
-  *  If you two creatures with all traits at 100%, the range of the trait will +-10%.
-  *  If you have two creatures with 50% Speed and 100% Armor, Health, and Size, since Speed has a Strong effect on Armor and Speed is low, the range of the Armor trait will +13%,-7.7%, for Size the range would be +12%,-8.3%, for Health the range would be +11%,-9%, and for Speed it would stay +-10%
-  *  Oppositely, if you have a 150% Speed, 100% all others, the ranges will be, +7.7%,-13% for Armor, +8.3%,-12% for Size, -9%,+11% for Health
-  *  This compounds will all traits, so if Speed, Armor, and Size are all 50% and Health is 150% the ranges would be:
-     *   +17,-5.6 for Health: *(1.3x1.2x1.1=1.7 increase)* , *(0.77x0.83x0.9 = 0.56 decrease)*
-     *   +14,-7 for Speed *1.3x1.2x0.9=1.4 increase* , *0.77x0.83x1.1 = 0.7 decrease*
-     *   +12,-8.3 for Armor *1.3x0.83x1.1=1.2 increase* , *0.77x1.2x0.9=0.83 decrease*
-     *   +10,-9.7 for Size *0.77x1.2x1.1=1 increase* , *1.3x0.83x0.9=0.97 decrease*
-  * Detailed calculations for DNA can be found [here](https://valheim.thunderstore.io/package/Meldurson/AllTameableTamingOverhaul/wiki/574-detailed-calculations-for-dna/)
- </details>  
- 
+### Saddle Recipes:
 
-* As the new DNA system is a major overhaul and is quite complex, if you have any issues, [let me know](https://github.com/meldurson/AllTameable/blob/main/README_New.md#contact) and I can try and fix them.
-* If you have errors or do not want the DNA system you can disable it in the config.
-* Also, if you have any suggestions on how the DNA system or the mod can be improved, feel free to make a suggestion [here](https://github.com/meldurson/AllTameable/discussions/2)
-  
-![DNA](https://raw.githubusercontent.com/meldurson/AllTameable/main/Pics/DragonDNA_5to1Zoom.png)  
-
-
-
-## New in 1.3
-* Works with Ashlands.
-* Complete overhaul of eggs and hatching.
-  * Eggs now have levels inherited from parents and determines level once hatched.
-  * Dragon eggs now hatch the same as chicken eggs.
-  * All genetic functionality that was available with normal offspring now can apply to eggs.
-* Changed where taming tools are made, now required to use a crafting table.
-* Added an advanced taming tool that can be used to interact with creatures from further away and command multiple creatures at a time.
-* Can cycle between different mass commands using the cycle key when looking at a tamed creature.
-* Added three tiers of special taming food that reduces taming time, made in the cauldron.
-* Mutation chances are now split between levels, infusions, and effects.
-* Can now log out and into a different world at it will reload your configs, no longer need to quit and reopen.
-##
-__The current state of the mod includes the following features:__
-![Creatures](https://raw.githubusercontent.com/meldurson/AllTameable/main/Pics/LoxHatchlingUlv_5to1.png)
-
-* Ability to tame any creature specified in the config including added other mods.
-* Works in singleplayer, multiplayer, and dedicated server as long as all parties and the server have the mod installed.
-* Added craftable items that when hovering over a creature and wielding the item it will show taming time and acceptable consumables.
-* Ability to have hatchable dragon eggs.
-* New Config solution to manage creature tames more easily.
-* CLLC integration (Optional):
-  * Levels of hatched dragon egg gets level chance from CLLC.
-  * Inheritance of effect and infusion from parents.
-  * Mutation chance to get a different effect/infusion.
-  * Mutation chance for level to change (+1/-1) eg: two 3 star creatures would have a chance to breed a 4 star and also 2 star.
-* Added ability to remove option for taming.
-* Can set a healing amount when a tame consumes an item (this feature was removed in Hearth and Home).
-* Can breed Humans added by RRRNPC.
-* Can breed different creatures together (mainly useful for humans with male/female variants).
-* Can tame passive creatures such as Deer (or others added by mods such as Horems Wildlife).
-* Can have specific offspring depending on mates.
-* Can set Trades for instant taming.  
-* __Can turn on Simple Mode to only change taming and does not include custom procreation.__
-  * If do not need complex procreation and are having issues, turn this on in config.
-* Special taming food that decreases taming time.
-  * Made using the cauldron and uses completed tasty mead.
-  * Potion that can be drank that speeds up taming of all creatures in area.
-* Increased reach for interaction with creatures when using the taming tool.
-* Can have creatures lay eggs.
-* Command multiple creatures at once with taming wand.
-* DNA that is randomized for every creature and can be breed for specific traits.
-* Equipment to help with taming and breeding.
-* __Can tame all bosses!__
-
-![Modor](https://raw.githubusercontent.com/meldurson/AllTameable/main/Pics/DragonTower5to1.png)
-
-__Current features that do not work:__
-* <del>Ability to tame Bosses (they have special AI that is not conducive with taming)</del> fixed in version 1.3.3
-* Ability to tame Birds (also have a special AI)
-
-
-### Items:
-![Items](https://raw.githubusercontent.com/meldurson/AllTameable/main/Pics/Items_5to1.png)
-There are currently 2 tools, 2 wearables, and 4 consumables added by this mod.
 <details>
   <summary>Recipes</summary>
   
-| Item      | ID | Required Items | Crafting Station |
-| ----------- | ----------- | ----------- |----------- |
-| Taming Tool      | el_TamingTool       |1 Raw Meat, 1 Red Mushroom, 1 Carrot, 1 Resin | Workbench lvl 1
-| Taming Wand     | el_AdvancedTamingTool       |3 Crystal, 2 MageCap, 5 Eitr, 10 FineWood, 2 Major Health Potion | Workbench lvl 3
-| Basic Taming Food     | el_T1Food       |2 Tasty Mead, 5 Yellow Mushroom, 2 Freeze Gland, 1 Leather Scraps | Cauldron lvl 2
-| Superior Taming Food X 3     | el_T2Food       |6 Medium Health Potion, 10 Barley Flour, 1 Dragon Tear | Cauldron lvl 3
-| Excellent Taming Food     | el_T3Food       |4 Minor Eitr Mead, 2 Major Health Potion, 1 Anglerfish, 5 MageCap | Cauldron lvl 5
-| Mead Base Speed Tame     | MeadBaseSpeedTame       |5 Wolf Trophy, 2 Superior Taming Food, 10 Honey | Cauldron lvl 1
-| Taming Potion X 4     | MeadSpeedTame       |1 Mead Base Speed Tame | Fermenter
-| Calming Gloves     | CalmingGloves       |6 Linen Thread, 2 Silver, 4 Tamed Nearby*, 5 Scale Hide | Artisan Table lvl 1
-| Taming Hat     | TamingHat       |10 Linen Thread, 2 Eitr, 10 Tamed Nearby*, 8 Scale Hide | Galdr Table lvl 1
+| Tier     | ID | Required Items | Crafting Station |
+| ---- | ----------- | ----------- |----------- |
+| 1 | SaddleT1  |6 Leather Scraps, 4 Deer Hide, 2 Hard Antler, 10 Dandelion | Workbench lvl 1
+| 2 | SaddleT2  |6 Troll Hide, 4 Deer Hide, 4 Bronze, 3 Ancient Seeds | Forge lvl 1
+| 3 | SaddleT3  |15 Deer Hide, 10 Ancient Bark, 6 Iron, 10 Guck | Forge lvl 2
+| 4 | SaddleT4  |6 Wolf Pelt, 4 Deer Hide, 2 Obsidian, 5 Silver, 10 Freeze Gland | Workbench lvl 4
+| 5 | SaddleT5  |6 Lox Pelt, 4 Deer Hide, 4 Black Metal, 1 Lox Trophy, 5 Tar | Forge lvl 3
+| 6 | SaddleT6  |15 Scale Hide, 6 Obsidian, 6 Yggdrasil Wood, 10 Sap, 3 Eitr | Workbench lvl 5
+| 7 | SaddleT7  |10 Lox Pelt, 2 Morgen Heart, 6 Flametal, 5 Tar | Forge lvl 4
+| 8 | SaddleT8  |20 Wolf Pelt, 10 Scale Hide, 1 Iolite, 50 Freeze Gland  | Artisan Table lvl 2
 
 
-\* Must have __X__ number of tamed creatures nearby (10m) when attempting crafting
+
 </details>
 
 ##
 
+## Installation Instructions:
 
-I made this so I could use it on a dedicated server and ended up adding features that I wanted to have. I can only work on this in my spare time, if you enjoy the mod and want and have the ability to send a few bucks you can on [Ko-fi](https://ko-fi.com/meldurson)
+* Download the main file with a mod manager or manually place the DLL file in the plugins folder.
+* Run the mod to create a config file and YML file
+* Add prefab names to YML file or copy/paste mount configs from [the wiki](https://valheim.thunderstore.io/package/Meldurson/MountUpRestored/wiki/1368-premade-configs/)
+    * By default only adds mounting to Wolf and Boar
+* Modify the config file *meldurson.MountUpRestored.cfg* in your config folder
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/B0B3NARM0)
+__If you want to share the configs or see what others have done for configs you can go [here](https://github.com/meldurson/MountUpRestored/discussions/1)__
+
+## Setting Up Mount Instructions:
+<details>
+  <summary>Instructions</summary>
+
+* __To add a new creature to be mountable from scratch the first step is to add it to the YML file__
+    * To add a creature to the MountList, add the prefab name to a new line followed by a colon ":" such as for a Drake, the prefab name is Hatchling
+    *   ```
+        Hatchling:
+        ```
+* When you encounter this creature for the first time the full config will be completed written and attempt to stick the saddle to the correct part of the creature
+    * The mountpath is the bone of the creature that the saddle will be stuck to. 
+    * When loading the creature for the first time, it will output the mountpath to the Bepinex window along with other alternatives it has found.
+        * You can copy/paste these alternatives into the mountpath of the yml if you want to change the bone the saddle is stuck to.
+* To modify the location of the saddle and where the player sits (as by default it most likely will not be in the correct position) you will have to enable adjustments in the config
+* In the config *meldurson.MountUpRestored.cfg* set __Enable Adjust Custom Mounts = true__
+* Now once you are in the world with adjustments enabled you will need to attach a saddle.
+    * The default saddle tier of a config is tier 5 (Plains Tier) 
+    * You will need to use the correct tier saddle on the creature, and it will then equip the saddle on the creature
+* The Tiers are __1-8:__ *Each tier corresponds to a biome* (1:Meadows,2:Black Forest,3:Swamp...etc)
+* The saddle tier specifies what visual saddle you want and has an item to go along with it. If you want to overwrite the item that is used you can set the *customSaddle* to a specific tier such as:
+    *   ```
+        Dragon:
+            saddleTier: 4
+            customSaddle: 6
+        ```
+    * This will give Modor a tier 4 (Mountains) visual saddle but require a Tier 6 (Mistlands) saddle to be used as the saddle item
+    * You can also specify another item by prefab name such as:
+    *   ```
+        GoblinBrute:
+            saddleTier: 5
+            customSaddle: SaddleLox
+        ```
+    * This will give Fueling Berserkers a tier 5 (Plains) visual but you will use a standard Lox saddle as the item
+* If you want a more traditional simple saddle you can set the saddle tier to 0 (this will be default add the saddle item to be Tier 5 Saddle)
+* There is a possiblity you cannot see the saddle in its current location, or you can see it but cannot mount it, in this case you can use __Alt+E__ to force mount the saddle *(I reccomend enabling god mode before this as it does not check distance and can cause damage)*
+* Onced mounted can now enter edit mode __(controls at top of screen)__ and move the saddle and mount point and rotate the both saddle and mountpoint
+    * It is reccomended to cycle controls to rotate first
+    * Once you want to save the current location and rotation you can with __Ctrl+S__ which writes it to the YML file
+* Currently you cannot change the scale of the saddle when editing in game, you have to edit the scale in the YML
+* To reload the YML file, logout and log in
+* Due to scaling issues, you may need to reload and adjust the forward/back once or twice for it to scale correctly with different levels of creatures
+
+</details>
+
+##
+
 
 ## Changelog
 
 <details>
 
-Version 1.4.2
-* Fixed custom eggs based on Dragon Eggs failing
+Version 3.3.4
 * Added patch to make sure recipes with more than 4 ingredients cycle pages
-* Fixed a couple bugs
-* Fixed default tamelist
+* Added shared content with AllTameable so patches only run once
+* Made custom saddles modify the correct saddle tier descriptions
+* Modified later stage recipes
 
-Version 1.4.1
-* Fixed tamed Dvergers being able to be hit by player
-* Fixed Animals not being able to move unless alerted
-* Colors of wild creatures that you tame no longer change once tamed
+Version 3.3.3
+* Updated to Ashlands Valhiem version 0.218.15
 
-Version 1.4.0
-* Updated to Ashlands
-* Added ability to select Asksvin egg for optional egg
-* Removed DNA dependance on CLLC
-* Adjusted DNA Colors
-* Adjusted Default Tamelist
-
-Version 1.3.9
+Version 3.3.2
 * Updated to Valhiem version 0.217.46
-* Removed floating Magecap at spawn
-* Changed hover consumable items to now show localized names
-* Tamed bosses no longer cause weather effects or boss bar if alerted right after taming
+* Added attack while mounted!
+* Added ability to toggle if mounted attack is possible
 
-Version 1.3.8
-* Fixed baby creatures despawning on relog
-* Bosslike creatures whos attacks spawn other creatures, when tamed, now spawn tamed creatures
-* Fixed error on joining a server from duplicate SpeedTamePotion
-* Default Tamelist now includes all Bosses, Minibosses and Gjall
-* Added a max level for mutation
-* Fixed issue where creature that was unable to procreate, and grew up from egg was getting spawned as mini instead of egg
-  
-Version 1.3.7
-* Fixed disabling useDNA color not actually disabling color
 
-Version 1.3.6
-* Lowered levels on eggs to reference amount of stars so 0 star creatures have lvl 0 eggs instead of lvl 1 eggs etc.
-* Added config to limit the size changes possible in DNA 
-
-Version 1.3.5
-* Fixed issue with Eggs disapearing
-* Made it so if using DNA all tames will correctly have DNA, not just ones in tamelist
-* Fixed DNA Hover not showing up sometimes
-* Fixed eggs with CLLC effect/infusions accidentally getting copied to other eggs
-* Fixed some issues with logging out and back into worlds
-
-Version 1.3.4
-* Fixed issue with Taming Hat not showing DNA
-* Made it so if only specifying creature in TameList, if already tameable will just add compatibility can not change the Taming 
+Version 3.3.1
+* Added 9 options for saddle visuals with each in line with a biome
+* Added 8 recipes, for tiers 1-8
+* Added ability to specify custom item to be used to add saddle to creature
+* Set descriptions for each saddle to include all creatures that it can be used to mount
+* Fixed, "PrefabName" showing up in item description
  
-Version 1.3.3
-* Added DNA to all creatures modified by AllTameable
-* Added Calming Gloves, Taming Hat, and Taming Potion
-* Fixed taming of some creatures that are set to hunt player
-* Made so tamed bosses will no longer create weather effects or have a boss bar
-* Added equipment to children (not weapons)
-* Made groups able to be set for creatures that are set to not be tameable
-* When trying to reproduce will take into account all possible mates and offspring to determine max amount in area
-* Fixed issue with loading eggs when logging out
-* Fixed error with children of creatures that talk (Dverger)
-* No longer can interact with fire with a Dragon Egg, need to hatch like chicken egg
-* Taming Tool uses resin again to craft instead of Dragon Egg
- 
-Version 1.3.2
-* Fixed incompatibility with JewelCrafting
-* Adjusted chicken size to scale better with levels
- 
-Version 1.3.1
-* Fixed issue where could not add dragon eggs to Moder altar
-* Made dragon eggs default stack to 20 except if special
-   
-Version 1.3
-* Added ability to specify a custom egg as offspring
-* Made eggs have level that will carry over when hatched
-* Made eggs inherit CLLC infusion/extra effect same as normal offspring  
-* Made dragon eggs work the same as chicken eggs to hatch near fire  
-* Added advanced taming stick that can command multiple tames in an area  
-* Moved increased interact range to only be on advanced taming stick  
-* Added Tier 3 taming food  
-* Fixed issue with specific offspring not getting changed back to default  
-* Made default tamelist taming values closer to vanilla (mostly with growup time)  
-* Can now specify child offsping using specificOffspring and will not make a mini version of it  
-* Made compatible with Hildir Update  
-* Split mutation chances into three separate chances
-* Added ability to specify group in config so tamed and wild of different prefabs won't attack eachother
-* Fixed issue where logging out did not properly reset config so should be able to change world/servers without quitting game
-  
-Version 1.2.1
-* Fixed incompatibility with Auto_Feed
-  
-Version 1.2.0
-* Increased interact range with tame stick for creatures (can hover over them from further)
-* Added taming food that when a creature consumes it will decrease taming time
-* Changed sooth effect to be calmer
-* Fixed default tamelist carrying over from file to file
-  
-Version 1.1.5
-* Added Simple config option to only allow for simple procreation (use default vanilla)
-* Removed the ability to specify creatures for taming in normal config (meldurson.valheim.AllTameable)
-* If updating and specifying creatures in meldurson.valheim.AllTameable, will create TameList for you
-* If not updating or do not specify creatures in meldurson.valheim.AllTameable then will make a Tamelist (Same as Vanilla TameList)
-* Made complex procreation more stable
-* Fixed issue where could find closest mate to be same creature even when set to canMateWithSelf=false
-* Removed the need for adding a "-1" on a line in TameList that only specifies mates
-* Changed ranges to scale with "size" in TameList
-* Changed UpdatedInterval to closer to Vanilla
-  
-Version 1.1.4
-* Added ability to set default in Tamelist
-* Added ability to specify attributes by name in tamelist to change them
-* Added custom attribute canMateWithSelf so creature can only mate with different creature
-* Added custom attribute specificOffspring with probability of specific offspring
-* Added ability to have multiple Tamelist files making it easier for mods
-* Fixed not being able to specify different mates on separate lines
-* Fixed maxCreatures allowing double what it should
-  
-Version 1.1.3
-* Changed way procreation works to remove errors
-* Fixed error of infinite spawns if error when growing up
-* Fixed minor error when chickens lay eggs
-* Added more information when using taming tool in debug mode
-  
-Version 1.1.2
-* Added functionality to trade for instant tame
-* Changed petting and taming sounds to be specific to tame and not just wolf growl
-* Fixed issues with reading Tamelist for accomodating different number formats
-* Added funtionality that small errors in tamelist will create notification but not break tame
-* Fixed issue with default config file tames not updating change faction and procreation correctly
-  
-Version 1.1.1
-* Updated to Mistlands update
-* Added ability to have Seeker Broods as Offspring from Seekers or Seeker Brutes
-  
-Version 1.1.0
-* Added ability to tame passive creatures (That have AnimalAI not MonsterAI)
-* Added ability for different creatures to mate with eachother (such as male/female)
-* Allowed for procreation of Humans created with RRRNPC
-* Fixed issue where offspring would sometimes be untamed and attack everything
-* Fixed issue of duplicating Dragon Egg
-* Renamed to AllTameable Taming Overhaul
-* Made looking at creatures with taming stick be a little more descriptive on what is missing
-* Created a small separate optional patch for RRRNPC to help with taming errors
-  
-Version 1.0.7
-* Fixed Deer and MountUp issue
-* Added ability for consuming to provide a set heal on top of regen
-* Made regen not say "+0" if regenerating a small amount of health (added healing vfx)
-  
-Version 1.0.6
-* Added ability to tame deer
-* Added optional CLLC integration
-* Added tamelist format to remove ability to tame (useful for servers)
-* Added breeding inheritance for CLLC
-* Added mutation chance with breeding
-* Fixed issue with two creatures of the same breed trying to kill each other if one tames before the other
-* Added ability to get random level out of hatched dragon eggs
-  
-Version 1.0.5
-* Fixed issue with dragon egg sometimes teleporting to spawn when interreacting with fire
-* Added ability to pick up eggs once set down for hatching
-  
-Version 1.0.4
-* Fixed some people unable to breed any creature
-* Fixed raw meat disappearing on cooking rack
-* Added more info when hovering over creature with taming tool
-* Added a debug option in config that when set to false removes many lines from the debug window
-* When debug set to true, taming stick will show exactly why a creature isn't breading
-  
-Version 1.0.3
-* Added an easier way to load and manage creatures using the TameList
-* Fixed ability to hatch dragon eggs
-* Added built-in server config sync
-* Optimized Startup loading
-* Fixed closest creature when loading in to have incorrect taming properties
-  
-Version 1.0.0
-* Updated to hearth and home update
-* Added support for creatures added by mods
-* Added dedicated server support
-* Added a taming tool to see each creatures taming requirements
+Version 3.3.0
+* Made config YML based and Server Sync
+* Made all existing configs automatically convert into YML format
+* Made flying up/down less intense on smaller flying creatures
+* Added UI for controls for editing the mounting position
+* Added ability to rotate while editing in game
+* Reduced logs related to "Setting Saddle"
+* Can no longer accidentally move saddle and mount point too far away
+* Some slightly larger creatures no longer slide in place
+
+Version 3.2.11
+* Fixed errors due to Valheim updates
+* Added flying and jumping
+
 </details>
 
-![Soldier Egg](https://raw.githubusercontent.com/meldurson/AllTameable/main/Pics/SeekerSoldierEgg_5to1.png)
+##
+### Known Issues:
+
+* Scaling with size of creature is not perfect, for best results adjust mount on a 0 star creature
+    * If using All Tameable with DNA traits enabled, either disable traits for adjusting mounts or find a 0 star creature that is close to 100% scale
+* Hatchlings are not meant to land in vanilla so if you do land a hatchling the animation is a little off
+* When flying there is some visual jittering of the creature
+* When attempting to mount a saddle far above your head, you might take fall damage
+* If a creature is too big it will just slide and not be able to run
 
 
-## Installation Instructions:
-
-* Download the main file with a mod manager or manually place the DLL file in the plugins folder.
-* ### This mod is required to be installed on both client and server in order to function!
-* Download one of the TameList in the optional files section and place in the config folder.
-  * [TameList Vanilla](https://github.com/meldurson/AllTameable/blob/main/TameList%20Vanilla.zip) curated list with increasing difficulty to tame.
-  * [TameList Simple](https://github.com/meldurson/AllTameable/blob/main/TameList%20Simple.zip) sticks to vanilla taming except for what you can feed.
-  * [TameList DoD](https://github.com/meldurson/AllTameable/blob/main/TameList%20DoD.zip) (updated Nov 23)
-  * [TameList Monsterlabz](https://github.com/meldurson/AllTameable/blob/main/TameList%20MonsterLabz.zip) (updated Nov 23)
-  * [TameList Monstrum](https://github.com/meldurson/AllTameable/blob/main/TameList%20Monstrum.zip) (updated Nov 23)
-  * [TameList EpicValheim](https://github.com/meldurson/AllTameable/blob/main/Tamelist%20EpicValheim.zip) (updated Feb 23)
-  
-* Open the TameList file and modify to your hearts content, including adding creatures that are added by mods as long as it follows the correct format.
-* If you have a Tamelist that you want to share, feel free to send it to me through Discord.
-
-
-### [Configuration](https://valheim.thunderstore.io/package/Meldurson/AllTameableTamingOverhaul/wiki/572-how-to-format-the-tamelist/)
-Explanation and overview of how to format the TameList can be found on the [wiki](https://valheim.thunderstore.io/package/Meldurson/AllTameableTamingOverhaul/wiki/572-how-to-format-the-tamelist/)
-and a more detailed version can be found [here](https://valheim.thunderstore.io/package/Meldurson/AllTameableTamingOverhaul/wiki/573-in-depth-explanations-of-tamelist/)
-
-
-### Known Incompatibilities:
-* Issues with Valheim Plus Invincible Tames (throws an error, not game breaking)
-* Tames entering WardIsLove wards can throw an error (Also not game breaking)
-
-
-## Troubleshooting
-__If a creature is not tameable when you think they should be then there are a steps you can take:__
-1. When you start the game before the title screen there will be a block of messages saying which creatures have been set to tameable. The start of the message will be __[Info   :AllTameable-Overhaul]__ the name of the creature should be here with successfully added beside it. If it is not you may need to check your TameList
-2. If you enable Debug Output in the __meldurson.valheim.AllTameable.cfg__ then when you load into the world it should show what creatures have successfully changed to be tameable and if they are commandable. This will be a block of  
-__[Warning:AllTameable-Overhaul]__ Creature is commandable
-__[Warning:AllTameable-Overhaul]__ Successfully added Tame and Procreation to Creature
-3. If it says that the creature is tameable or commandable but does not show when in game, if you use the Taming Tool when Debug is enabled and hover over the creature it will show the Prefab name and if it is commandable. If the Prefab name is not in your Tamelist then you will have to add it.
-
-
-__If a creature is not procreating then there are a couple steps you can take:__
-1. Enable Debug in the __meldurson.valheim.AllTameable.cfg__
-2. When hovering over the creature when they are fed it will bring up a few stats. 
-   - The one you may need to look at is the Less than max instance: 
-4. If it says Needs Mate then it will let you know the creatures that are around
-5. If it says Error then it will post in Bepinex what the error is (Note: For 30s-1m after loading into a world there may be some errors with other mods that affect spawning that should go away)
-
-   If none of that works, then reach out to me on the [Valheim Modding Discord](https://discord.com/invite/GUEBuCuAMz) 
+### Future Plans:
+* ~~Have many more tiers of saddle~~
+* ~~Have more visual models of saddles~~
+* ~~Ability to specify custom saddle items (for recipe, not for visual)~~
+* ~~Allow for attacking while mounted~~
+* Fix fall damage issue
 
 ### Contact:
 The most reliable way to reach out would be to ping me in the [Valheim Modding Discord](https://discord.com/invite/GUEBuCuAMz) under @Meldurson or dm me on Discord.
