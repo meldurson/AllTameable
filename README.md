@@ -5,6 +5,15 @@
 ![Banner](https://raw.githubusercontent.com/meldurson/AllTameable/main/Pics/DeerHover_5to1Zoom.png)
 This is an overhaul and rewrite of [AllTameable](https://www.nexusmods.com/valheim/mods/478?tab=description) from Buzz.
 
+### Latest Update
+    Version 1.4.3
+	* Added chest armor piece
+	* Added effect that buffs tames in the area and debuffs player
+	* Added ability to hand feed creatures by "using" food on them
+	* Fixed an issue with groups not getting set correctly
+	* Fixed double counting some creatures when trying to breed
+	* Made creatures that only trade, unable to be fed special taming food
+	* Fixed error with killing certain creatures
 ## DNA
 * All tameable creates can now have random colour and traits.
 * You can toggle both if you just want colour or just want traits.
@@ -90,6 +99,7 @@ __The current state of the mod includes the following features:__
 * Command multiple creatures at once with taming wand.
 * DNA that is randomized for every creature and can be breed for specific traits.
 * Equipment to help with taming and breeding.
+* Can hand feed tamed creatures by using food on them.
 * __Can tame all bosses!__
 
 ![Modor](https://raw.githubusercontent.com/meldurson/AllTameable/main/Pics/DragonTower5to1.png)
@@ -101,7 +111,7 @@ __Current features that do not work:__
 
 ### Items:
 ![Items](https://raw.githubusercontent.com/meldurson/AllTameable/main/Pics/Items_5to1.png)
-There are currently 2 tools, 2 wearables, and 4 consumables added by this mod.
+There are currently 2 tools, 3 wearables, and 4 consumables added by this mod.
 <details>
   <summary>Recipes</summary>
   
@@ -116,6 +126,7 @@ There are currently 2 tools, 2 wearables, and 4 consumables added by this mod.
 | Taming Potion X 4     | MeadSpeedTame       |1 Mead Base Speed Tame | Fermenter
 | Calming Gloves     | CalmingGloves       |6 Linen Thread, 2 Silver, 4 Tamed Nearby*, 5 Scale Hide | Artisan Table lvl 1
 | Taming Hat     | TamingHat       |10 Linen Thread, 2 Eitr, 10 Tamed Nearby*, 8 Scale Hide | Galdr Table lvl 1
+| Bestial Command Robes     | BestialRobes       |10 Wolf Pelt, 10 Linen Thread, 10 Tamed Nearby*, 5 Needle | Workbench lvl 4
 
 
 \* Must have __X__ number of tamed creatures nearby (10m) when attempting crafting
@@ -131,6 +142,15 @@ I made this so I could use it on a dedicated server and ended up adding features
 ## Changelog
 
 <details>
+
+Version 1.4.3
+* Added chest armor piece
+* Added effect that buffs tames in the area and debuffs player
+* Added ability to hand feed creatures by "using" food on them
+* Fixed an issue with groups not getting set correctly
+* Fixed double counting some creatures when trying to breed
+* Made creatures that only trade, unable to be fed special taming food
+* Fixed error with killing certain creatures
 
 Version 1.4.2
 * Fixed custom eggs based on Dragon Eggs failing
