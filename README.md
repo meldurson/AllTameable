@@ -6,14 +6,10 @@
 This is an overhaul and rewrite of [AllTameable](https://www.nexusmods.com/valheim/mods/478?tab=description) from Buzz.
 
 ### Latest Update
-    Version 1.4.3
-	* Added chest armor piece
-	* Added effect that buffs tames in the area and debuffs player
-	* Added ability to hand feed creatures by "using" food on them
-	* Fixed an issue with groups not getting set correctly
-	* Fixed double counting some creatures when trying to breed
-	* Made creatures that only trade, unable to be fed special taming food
-	* Fixed error with killing certain creatures
+    Version 1.4.4
+	* Fixed double counting of creatures in custom procreation
+	* Fixed fatal error when certain modded creatures were killed
+	
 ## DNA
 * All tameable creates can now have random colour and traits.
 * You can toggle both if you just want colour or just want traits.
@@ -143,6 +139,10 @@ I made this so I could use it on a dedicated server and ended up adding features
 
 <details>
 
+Version 1.4.4
+* Fixed double counting of creatures in custom procreation
+* Fixed fatal error when certain modded creatures were killed
+  
 Version 1.4.3
 * Added chest armor piece
 * Added effect that buffs tames in the area and debuffs player
