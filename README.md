@@ -6,9 +6,10 @@
 This is an overhaul and rewrite of [AllTameable](https://www.nexusmods.com/valheim/mods/478?tab=description) from Buzz.
 
 ### Latest Update
-    Version 1.4.4
-	* Fixed double counting of creatures in custom procreation
-	* Fixed fatal error when certain modded creatures were killed
+    Version 1.4.5
+    * Fixed borked AnimalAI
+    * Fixed error with config creation
+    * Fixed error with attacks with no dropPrefab
 	
 ## DNA
 * All tameable creates can now have random colour and traits.
@@ -138,6 +139,11 @@ I made this so I could use it on a dedicated server and ended up adding features
 ## Changelog
 
 <details>
+
+Version 1.4.5
+* Fixed borked AnimalAI
+* Fixed error with config creation
+* Fixed error with attacks with no dropPrefab
 
 Version 1.4.4
 * Fixed double counting of creatures in custom procreation
