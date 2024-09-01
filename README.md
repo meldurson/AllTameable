@@ -6,10 +6,16 @@
 This is an overhaul and rewrite of [AllTameable](https://www.nexusmods.com/valheim/mods/478?tab=description) from Buzz.
 
 ### Latest Update
-    Version 1.4.6
-    * Modified Tamelist for Ashlands creatures
-    * Fixed bug with previously tamed creature noises
-    * Fixed bosses that are tamed not removing the boss effects
+    Version 1.4.7
+    * Added config for disabling taming foods
+    * Water based eggs no longer require shelter or fire
+    * Can now set custom offspring name in tamelist
+    * Can now set required global key in order to tame
+    * Can now set maximum level tameable in wild
+    * Follow distance of creatures is now based on consume range
+        * Should stop large creatures from pushing you anymore
+        * 1.5 consume range sets the distance to vanilla
+    * Added (some) compatibility with VikingNPCs
 	
 ## DNA
 * All tameable creates can now have random colour and traits.
@@ -140,6 +146,20 @@ I made this so I could use it on a dedicated server and ended up adding features
 
 <details>
 
+Version 1.4.7
+* Added config for disabling taming foods
+* Water based eggs no longer require shelter or fire
+* Can now set custom offspring name in tamelist
+* Can now set required global key in order to tame
+* Can now set maximum level tameable in wild
+* Follow distance of creatures is now based on consume range
+    * Should stop large creatures from pushing you anymore
+    * 1.5 consume range sets the distance to vanilla
+* Added (some) compatibility with VikingNPCs
+* Fixed bug with AnimalAI not healing when fed (Deer are one)
+* Fixed errors when some bosses were tamed
+* Taming tool hover text now handles more consumables if needed
+
 Version 1.4.6
 * Modified Tamelist for Ashlands creatures
 * Fixed bug with previously tamed creature noises
@@ -177,7 +197,7 @@ Version 1.4.1
 Version 1.4.0
 * Updated to Ashlands
 * Added ability to select Asksvin egg for optional egg
-* Removed DNA dependance on CLLC
+* Removed DNA dependence on CLLC
 * Adjusted DNA Colors
 * Adjusted Default Tamelist
 
@@ -189,7 +209,7 @@ Version 1.3.9
 
 Version 1.3.8
 * Fixed baby creatures despawning on relog
-* Bosslike creatures whos attacks spawn other creatures, when tamed, now spawn tamed creatures
+* Bosslike creatures who's attacks spawn other creatures, when tamed, now spawn tamed creatures
 * Fixed error on joining a server from duplicate SpeedTamePotion
 * Default Tamelist now includes all Bosses, Minibosses and Gjall
 * Added a max level for mutation
@@ -203,7 +223,7 @@ Version 1.3.6
 * Added config to limit the size changes possible in DNA 
 
 Version 1.3.5
-* Fixed issue with Eggs disapearing
+* Fixed issue with Eggs disappearing
 * Made it so if using DNA all tames will correctly have DNA, not just ones in tamelist
 * Fixed DNA Hover not showing up sometimes
 * Fixed eggs with CLLC effect/infusions accidentally getting copied to other eggs
@@ -244,7 +264,7 @@ Version 1.3
 * Added Tier 3 taming food  
 * Fixed issue with specific offspring not getting changed back to default  
 * Made default tamelist taming values closer to vanilla (mostly with growup time)  
-* Can now specify child offsping using specificOffspring and will not make a mini version of it  
+* Can now specify child offspring using specificOffspring and will not make a mini version of it  
 * Made compatible with Hildir Update  
 * Split mutation chances into three separate chances
 * Added ability to specify group in config so tamed and wild of different prefabs won't attack eachother
@@ -288,8 +308,8 @@ Version 1.1.3
 Version 1.1.2
 * Added functionality to trade for instant tame
 * Changed petting and taming sounds to be specific to tame and not just wolf growl
-* Fixed issues with reading Tamelist for accomodating different number formats
-* Added funtionality that small errors in tamelist will create notification but not break tame
+* Fixed issues with reading Tamelist for accommodating different number formats
+* Added functionality that small errors in tamelist will create notification but not break tame
 * Fixed issue with default config file tames not updating change faction and procreation correctly
   
 Version 1.1.1
