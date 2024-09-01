@@ -12,9 +12,9 @@ __Here is a block of some creatures:__
     *Default,false,1300,300,1,10,30,15,Raspberry:Blueberries:Carrot:Turnip:Mushroom:Cloudberry:OnionSoup:Onion,false,true,7,0.66,90,2000
     Boar
     *Tier_1,true,1500,300,1.4
-    Deer
+    Deer,offspringName=Fawn
     Neck,consumeItems=SerpentMeat:FishRaw:Bread:Raspberry:Blueberries:Cloudberry:Carrot:Mushroom:MushroomYellow:MushroomBlue:Turnip,egg=drake(1200:#00FF00:0.3)
-    StoneGolem,true,2300,300,2,10,30,20,CopperOre:IronOre:SilverOre:TinOre:Ruby,true,false
+    StoneGolem,true,2300,300,2,10,30,20,CopperOre:IronOre:SilverOre:TinOre:Ruby,true,false,requiredWorldKeys=defeated_dragon:defeated_eikthyr
     
     ###Goblins###
     *Goblins,true,2300,500,2,10,90,15,SerpentMeatCooked:CookedLoxMeat:BloodPudding:FishWraps:LoxPie:TurnipStew:SerpentStew:BlackSoup:WolfMeatSkewer:WolfJerky:CookedWolfMeat:CookedHareMeat,false,true,5,0.66,200,3200
@@ -54,9 +54,10 @@ __Line:__
 \- The rest will be kept from the first line `*Default`  
 
 __Line:__
-`Deer`  
+`Deer,offspringName=Fawn`  
 \- Since the previous line modified part of the default with `*Tier_1` line, this will be equivalent to a line such as:  
 `Deer,true,1500,300,1.4,10,30,15,Raspberry:Blueberries:Carrot:Turnip:Mushroom:Cloudberry:OnionSoup:Onion,false,true,7,0.66,90,2000`  
+\- There is also a custom offspring name set with `offspringName=Fawn` as by default the offspring name would be `Mini Deer` and now it will be `Fawn`
 
 __Line:__
 `Neck,consumeItems=SerpentMeat:FishRaw:Bread:Raspberry:Blueberries:Cloudberry:Carrot:Mushroom:MushroomYellow:MushroomBlue:Turnip, egg=drake(1200:#00FF00:0.3)`  
@@ -67,11 +68,12 @@ __Line:__
 \- The egg will hatch after `1200` seconds into a *Mini Neck* which will grow into a Neck after an additional `2000` seconds (From the Default).  
  
 __Line:__
-`StoneGolem,true,2300,300,2,10,30,20,CopperOre:IronOre:SilverOre:TinOre:Ruby, true,false`  
+`StoneGolem,true,2300,300,2,10,30,20,CopperOre:IronOre:SilverOre:TinOre:Ruby, true,false,requiredWorldKeys=defeated_dragon:defeated_eikthyr`  
 \- As you can see, you do not need to specify "food" as the consumable items, they can be any item that can be dropped on the ground.  
 \- After the consumeItems attribute is set you can see that the `changeFaction` is set to `true`. This will make it so after taming it will also be hostile towards other StoneGolem where normally when a creature is tamed it will not be hostile towards the same creature.    
 \- The next part is the setting for `procreation` which is set to `false` so it will not be able to procreate. Each Stone Golem that you want to be tamed will have to be tamed from the wild.  
 \- Since `procreation` is set to `false` then it does not matter what the values for `maxCreatures, pregnancyChance, pregnancyDuration, growTime` so we can just leave them as default.  
+\- The `requiredWorldKeys=defeated_dragon:defeated_eikthyr` makes it so you will not be able to tame the Stone Golem unless you have these two global keys which come from defeating Eikthyr and Modor. You can separate keys with a __:__ (colon).
 
 __Line:__
 `###Goblins###`  
