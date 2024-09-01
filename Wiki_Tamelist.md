@@ -139,6 +139,7 @@ _Be careful about putting this in a default line_ as all subsequent creatures wi
 __requiredWorldKeys:__ default=None  
 Do you want to require a boss or creature to be killed before you are able to tame this creature? Any world key can be specified (be careful though, if you misspell it, you will not be able to tame this creature).  
 You can separate multiple keys with a __:__ as shown below.  
+If you do not have the required keys, when hovering over the creature it will say "Feral" instead of "Wild"  
 Below is an example that requires you to defeat both Eikthyr and Modor to be able to tame wolves.   
 
     Wolf,requiredWorldKeys=defeated_dragon:defeated_eikthyr
