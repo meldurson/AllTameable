@@ -128,9 +128,19 @@ an example would be the following which would have necks lay a smaller version o
 
     Neck,egg=drake(1200:#00FF00:0.3)
 
+__offspringName:__ default=Mini *Name of Adult*  
+Do you want to overwrite the Mini name with a custom name. An example below is for deer wanting the children to be named Fawn.  
+_Be careful about putting this in a default line_ as all subsequent creatures will have identical names until you specify another default with offspringName or an offspringName is set on that creature.  
+
+    Deer,offspringName=Fawn
 
 
 
+__requiredWorldKeys:__ default=None  
+Do you want to require a boss or creature to be killed before you are able to tame this creature? Any world key can be specified (be careful though, if you misspell it, you will not be able to tame this creature).  
+Below is an example that requires you to defeat both Eikthyr and Modor to be able to tame wolves.   
+
+    Wolf,requiredWorldKeys=defeated_dragon:defeated_eikthyr
 
 
 
