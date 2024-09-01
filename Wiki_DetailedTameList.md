@@ -74,6 +74,7 @@ __Line:__
 \- The next part is the setting for `procreation` which is set to `false` so it will not be able to procreate. Each Stone Golem that you want to be tamed will have to be tamed from the wild.  
 \- Since `procreation` is set to `false` then it does not matter what the values for `maxCreatures, pregnancyChance, pregnancyDuration, growTime` so we can just leave them as default.  
 \- The `requiredWorldKeys=defeated_dragon:defeated_eikthyr` makes it so you will not be able to tame the Stone Golem unless you have these two global keys which come from defeating Eikthyr and Modor. You can separate keys with a __:__ (colon).
+\- If you do not have the required keys then the creature will be considered "Feral"
 
 __Line:__
 `###Goblins###`  
