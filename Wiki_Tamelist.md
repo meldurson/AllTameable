@@ -131,8 +131,9 @@ an example would be the following which would have necks lay a smaller version o
 __offspringName:__ default=Mini *Name of Adult*  
 Do you want to overwrite the Mini name with a custom name. An example below is for deer wanting the children to be named Fawn.  
 _Be careful about putting this in a default line_ as all subsequent creatures will have identical names until you specify another default with offspringName or an offspringName is set on that creature.  
+If you want to have a space in the name replace it with a "_" such as __Fenring__\___Cub__
 
-    Deer,offspringName=Fawn
+    Fenring,offspringName=Fenring_Cub
 
 
 
