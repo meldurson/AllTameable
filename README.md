@@ -17,6 +17,15 @@ This is an overhaul and rewrite of [AllTameable](https://www.nexusmods.com/valhe
         * 1.5 consume range sets the distance to vanilla
     * Added (some) compatibility with VikingNPCs
 	
+### Feral Creatures
+* With __update 1.4.7__ you can now have creatures that you are not yet able to tame.
+* These creatures will be notated as __"Feral"__ instead of Wild when looking at them.
+* The two circumstances this can happen is:
+    * In the _meldurson.valheim.AllTameable.cfg_ file you can set the maximum level you can tame wild creatures. So if set to __1__ then any two star (or higher with CLLC) would be feral and cannot be tamed. 
+    * In the _AllTameable\_TameList*.yml_ files you can specify a custom option of __requiredWorldKeys=__ such as _defeated_dragon_ which will mean unless you have defeated Modor they will be _Feral_.
+* You can read more on how to modify the tamelist for required keys [HERE](https://thunderstore.io/c/valheim/p/Meldurson/AllTameableTamingOverhaul/wiki/572-1-how-to-format-the-tamelist/)
+####
+
 ## DNA
 * All tameable creates can now have random colour and traits.
 * You can toggle both if you just want colour or just want traits.
