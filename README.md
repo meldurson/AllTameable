@@ -6,16 +6,9 @@
 This is an overhaul and rewrite of [AllTameable](https://www.nexusmods.com/valheim/mods/478?tab=description) from Buzz.
 
 ### Latest Update
-    Version 1.4.7
-    * Added config for disabling taming foods
-    * Water based eggs no longer require shelter or fire
-    * Can now set custom offspring name in tamelist
-    * Can now set required global key in order to tame
-    * Can now set maximum level tameable in wild
-    * Follow distance of creatures is now based on consume range
-        * Should stop large creatures from pushing you anymore
-        * 1.5 consume range sets the distance to vanilla
-    * Added (some) compatibility with VikingNPCs
+    Version 1.4.8
+	* Added Compatibility with Portable Pals
+	* Better sync of DNA with multiplayer
 	
 ### Feral Creatures
 * With __update 1.4.7__ you can now have creatures that you are not yet able to tame.
@@ -154,6 +147,10 @@ I made this so I could use it on a dedicated server and ended up adding features
 ## Changelog
 
 <details>
+
+Version 1.4.8
+* Added Compatibility with Portable Pals
+* Better sync of DNA with multiplayer
 
 Version 1.4.7
 * Added config for disabling taming foods
