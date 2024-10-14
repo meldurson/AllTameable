@@ -6,8 +6,8 @@
 This is an overhaul and rewrite of [AllTameable](https://www.nexusmods.com/valheim/mods/478?tab=description) from Buzz.
 
 ### Latest Update
-    Version 1.4.9
-    * Fixed issue with modded creatures that have custom taming not being able to eat
+    Version 1.4.10
+	* Fixed Compatibility with VikingNPCs update
 	
 ### Feral Creatures
 * With __update 1.4.7__ you can now have creatures that you are not yet able to tame.
@@ -146,6 +146,9 @@ I made this so I could use it on a dedicated server and ended up adding features
 ## Changelog
 
 <details>
+
+Version 1.4.10
+* Fixed Compatibility with VikingNPCs update
 
 Version 1.4.9
 * Fixed issue with modded creatures that have custom taming not being able to eat
