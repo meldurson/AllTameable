@@ -6,8 +6,8 @@
 This is an overhaul and rewrite of [AllTameable](https://www.nexusmods.com/valheim/mods/478?tab=description) from Buzz.
 
 ### Latest Update
-    Version 1.4.10
-	* Fixed Compatibility with VikingNPCs update
+    Version 1.4.11
+	* Added integration with Monster Modifiers
 	
 ### Feral Creatures
 * With __update 1.4.7__ you can now have creatures that you are not yet able to tame.
@@ -86,6 +86,7 @@ __The current state of the mod includes the following features:__
   * Inheritance of effect and infusion from parents.
   * Mutation chance to get a different effect/infusion.
   * Mutation chance for level to change (+1/-1) eg: two 3 star creatures would have a chance to breed a 4 star and also 2 star.
+* __Monster Modifier integration__
 * Added ability to remove option for taming.
 * Can set a healing amount when a tame consumes an item (this feature was removed in Hearth and Home).
 * Can breed Humans added by RRRNPC.
@@ -146,6 +147,9 @@ I made this so I could use it on a dedicated server and ended up adding features
 ## Changelog
 
 <details>
+
+Version 1.4.11
+* Added integration with Monster Modifiers
 
 Version 1.4.10
 * Fixed Compatibility with VikingNPCs update
