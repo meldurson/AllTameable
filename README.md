@@ -6,8 +6,11 @@
 This is an overhaul and rewrite of [AllTameable](https://www.nexusmods.com/valheim/mods/478?tab=description) from Buzz.
 
 ### Latest Update
-    Version 1.4.11
-	* Added integration with Monster Modifiers
+    Version 1.4.12
+    * Updated to Bog Witch
+    * Fixed integration with Monster Modifiers
+    * Added monster mod integration to eggs
+    * Fixed egg level when growing up
 	
 ### Feral Creatures
 * With __update 1.4.7__ you can now have creatures that you are not yet able to tame.
@@ -21,7 +24,7 @@ This is an overhaul and rewrite of [AllTameable](https://www.nexusmods.com/valhe
 ## DNA
 * All tameable creates can now have random colour and traits.
 * You can toggle both if you just want colour or just want traits.
-* Same as everything else, when breeding will inherit with variance from parents ( *integrates with [CLLC](https://valheim.thunderstore.io/package/Smoothbrain/CreatureLevelAndLootControl/)* )
+* Same as everything else, when breeding will inherit with variance from parents 
 * New equipment to show you a creature's DNA.
 * The lower other physical stats, the easier it is to get higher in another stat.  
 ####
@@ -147,6 +150,12 @@ I made this so I could use it on a dedicated server and ended up adding features
 ## Changelog
 
 <details>
+
+Version 1.4.12
+* Updated to Bog Witch
+* Fixed integration with Monster Modifiers
+* Added monster mod integration to eggs
+* Fixed egg level when growing up
 
 Version 1.4.11
 * Added integration with Monster Modifiers
