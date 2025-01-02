@@ -6,11 +6,17 @@
 This is an overhaul and rewrite of [AllTameable](https://www.nexusmods.com/valheim/mods/478?tab=description) from Buzz.
 
 ### Latest Update
-    Version 1.4.12
-    * Updated to Bog Witch
-    * Fixed integration with Monster Modifiers
-    * Added monster mod integration to eggs
-    * Fixed egg level when growing up
+    Version 1.5.0
+    * Added Localization
+    * Added recipes to config
+    * Added option to only have brightness changes instead of RGB
+    * Monster Modification no longer duplicates modifications
+    * Offspring can no longer have both Monster Modification immunities
+    * Added compatibility for ElvenNPCs
+    * Fixed error with Norse Demigods
+    * Changed default recipes and tamelist
+    * Fixed sync issues with servers
+    * Fixed issue with craft from containers mods counting tames nearby more than once
 	
 ### Feral Creatures
 * With __update 1.4.7__ you can now have creatures that you are not yet able to tame.
@@ -119,22 +125,22 @@ __Current features that do not work:__
 
 ### Items:
 ![Items](https://raw.githubusercontent.com/meldurson/AllTameable/main/Pics/Items_5to1.png)
-There are currently 2 tools, 3 wearables, and 4 consumables added by this mod.
+There are currently 2 tools, 3 wearables, and 4 consumables added by this mod. The recipes can be modified in the config file.
 <details>
-  <summary>Recipes</summary>
+  <summary>Default Recipes</summary>
   
 | Item      | ID | Required Items | Crafting Station |
 | ----------- | ----------- | ----------- |----------- |
-| Taming Tool      | el_TamingTool       |1 Raw Meat, 1 Red Mushroom, 1 Carrot, 1 Resin | Workbench lvl 1
-| Taming Wand     | el_AdvancedTamingTool       |3 Crystal, 2 MageCap, 5 Eitr, 10 FineWood, 2 Major Health Potion | Workbench lvl 3
-| Basic Taming Food     | el_T1Food       |2 Tasty Mead, 5 Yellow Mushroom, 2 Freeze Gland, 1 Leather Scraps | Cauldron lvl 2
-| Superior Taming Food X 3     | el_T2Food       |6 Medium Health Potion, 10 Barley Flour, 1 Dragon Tear | Cauldron lvl 3
+| Taming Tool      | el_TamingTool       |1 Raw Meat, 1 Red Mushroom, 1 Carrot, 5 Resin | Workbench lvl 1
+| Taming Wand     | el_AdvancedTamingTool       |3 Crystal, 20 Cloudberry,10 FineWood,2 Dragon Tears | Workbench lvl 4
+| Basic Taming Food     | el_T1Food       |1 Tasty Mead, 3 Yellow Mushroom, 1 Leather Scraps | Cauldron lvl 1
+| Superior Taming Food X 3     | el_T2Food       |6 Medium Health Potion, 10 Barley Flour, 1 Dragon Tear | Prep Table lvl 1
 | Excellent Taming Food     | el_T3Food       |4 Minor Eitr Mead, 2 Major Health Potion, 1 Anglerfish, 5 MageCap | Cauldron lvl 5
-| Mead Base Speed Tame     | MeadBaseSpeedTame       |5 Wolf Trophy, 2 Superior Taming Food, 10 Honey | Cauldron lvl 1
+| Mead Base Speed Tame     | MeadBaseSpeedTame       |3 Wolf Trophy, 5 Barley Flour, 5 Tamed Nearby*, 10 Honey | Mead Cauldron lvl 1
 | Taming Potion X 4     | MeadSpeedTame       |1 Mead Base Speed Tame | Fermenter
-| Calming Gloves     | CalmingGloves       |6 Linen Thread, 2 Silver, 4 Tamed Nearby*, 5 Scale Hide | Artisan Table lvl 1
-| Taming Hat     | TamingHat       |10 Linen Thread, 2 Eitr, 10 Tamed Nearby*, 8 Scale Hide | Galdr Table lvl 1
-| Bestial Command Robes     | BestialRobes       |10 Wolf Pelt, 10 Linen Thread, 10 Tamed Nearby*, 5 Needle | Workbench lvl 4
+| Calming Gloves     | CalmingGloves       |6 Linen Thread, 2 Silver, 4 Tamed Nearby*, 5 Wolf Hide | Workbench lvl 4
+| Taming Hat     | TamingHat       |10 Linen Thread, 5 Tamed Nearby*, 1 Goblin Totem, 15 Lox Hide | Artisan Table lvl 1
+| Bestial Command Robes     | BestialRobes       |10 Wolf Pelt, 10 Linen Thread, 10 Tamed Nearby*, 5 Needle | Workbench lvl 5
 
 
 \* Must have __X__ number of tamed creatures nearby (10m) when attempting crafting
@@ -150,6 +156,18 @@ I made this so I could use it on a dedicated server and ended up adding features
 ## Changelog
 
 <details>
+
+Version 1.5.0
+* Added Localization
+* Added recipes to config
+* Added option to only have brightness changes instead of RGB
+* Monster Modification no longer duplicates modifications
+* Offspring can no longer have both Monster Modification immunities
+* Added compatibility for ElvenNPCs
+* Fixed error with Norse Demigods
+* Changed default recipes and tamelist
+* Fixed sync issues with servers
+* Fixed issue with craft from containers mods counting tames nearby more than once
 
 Version 1.4.12
 * Updated to Bog Witch
