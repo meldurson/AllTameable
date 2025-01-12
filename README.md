@@ -6,17 +6,9 @@
 This is an overhaul and rewrite of [AllTameable](https://www.nexusmods.com/valheim/mods/478?tab=description) from Buzz.
 
 ### Latest Update
-    Version 1.5.0
-    * Added Localization
-    * Added recipes to config
-    * Added option to only have brightness changes instead of RGB
-    * Monster Modification no longer duplicates modifications
-    * Offspring can no longer have both Monster Modification immunities
-    * Added compatibility for ElvenNPCs
-    * Fixed error with Norse Demigods
-    * Changed default recipes and tamelist
-    * Fixed sync issues with servers
-    * Fixed issue with craft from containers mods counting tames nearby more than once
+    Version 1.5.1
+    * Wild or crafted eggs now have random DNA
+    * Patched BetterRiding that changes how feeding works
 	
 ### Feral Creatures
 * With __update 1.4.7__ you can now have creatures that you are not yet able to tame.
@@ -156,6 +148,10 @@ I made this so I could use it on a dedicated server and ended up adding features
 ## Changelog
 
 <details>
+
+Version 1.5.1
+* Wild or crafted eggs now have random DNA
+* Patched BetterRiding that changes how feeding works
 
 Version 1.5.0
 * Added Localization
