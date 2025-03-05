@@ -6,7 +6,7 @@
 This is an overhaul and rewrite of [AllTameable](https://www.nexusmods.com/valheim/mods/478?tab=description) from Buzz.
 
 ### Latest Update
-    Version 1.5.1
+    Version 1.5.2
     * Fixed mass command localization
     * Now shows adjusted taming time with buffs
     * Implemented stricter network version allowance
