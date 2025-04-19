@@ -6,10 +6,11 @@
 This is an overhaul and rewrite of [AllTameable](https://www.nexusmods.com/valheim/mods/478?tab=description) from Buzz.
 
 ### Latest Update
-    Version 1.5.2
-    * Fixed mass command localization
-    * Now shows adjusted taming time with buffs
-    * Implemented stricter network version allowance
+    Version 1.5.3
+	* Fixed compatibility with VikingNPC
+	* Modified how follow distance works to be tied to size
+	* Added multiplier for follow distance
+	* Added error detection when fixing Hen Size
 	
 ### Feral Creatures
 * With __update 1.4.7__ you can now have creatures that you are not yet able to tame.
