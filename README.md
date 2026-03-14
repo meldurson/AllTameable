@@ -9,6 +9,9 @@ This is an overhaul and rewrite of [AllTameable](https://www.nexusmods.com/valhe
     Version 1.5.4
 	* Updated to newest game version
     * Fixed localization error
+	* Fixed compat with Monster Modifiers
+	* Fixed compat with ElvenNPC
+	* Fixed extreme frame drop when looking at recipe requiring eggs
 	
 ### Feral Creatures
 * With __update 1.4.7__ you can now have creatures that you are not yet able to tame.
